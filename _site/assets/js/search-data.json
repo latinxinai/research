@@ -1,0 +1,32 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": "{% include about.html%} ",
+    "url": "/pages/about.html",
+    "relUrl": "/pages/about.html"
+  },"1": {
+    "doc": "CVPR",
+    "title": "CVPR",
+    "content": "{% include /workshops/cvpr/cvpr.html%} ",
+    "url": "/workshops/cvpr/cvpr.html",
+    "relUrl": "/workshops/cvpr/cvpr.html"
+  },"2": {
+    "doc": "ICML",
+    "title": "ICML",
+    "content": "{% include /workshops/icml/icml.html%} ",
+    "url": "/workshops/icml/icml.html",
+    "relUrl": "/workshops/icml/icml.html"
+  },"3": {
+    "doc": "NeurIPS 2020",
+    "title": "NeurIPS 2020",
+    "content": "{% include /workshops/neurips/neurips2020.html%} ",
+    "url": "/workshops/neurips/neurips-2020.html",
+    "relUrl": "/workshops/neurips/neurips-2020.html"
+  },"4": {
+    "doc": "NeurIPS",
+    "title": "NeurIPS",
+    "content": "{% include /workshops/neurips/neurips.html%} ",
+    "url": "/workshops/neurips/neurips.html",
+    "relUrl": "/workshops/neurips/neurips.html"
+  }
+}

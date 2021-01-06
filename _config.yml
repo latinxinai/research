@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: LatinX in AI Research
+title: LatinX in AI (LXAI) Research
 email: research@latinxinai.org
 description: >- # this means to ignore newlines until "baseurl:"
   This is a publication of accepted research papers for official LatinX in AI (LXAI) workshops co-located with prestigious AI and ML conferences held globally and virtually.
@@ -35,6 +35,25 @@ plugins:
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo/LXAI-navlogo.png"
 
+# permalink: /:title/
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/latinxinai/research" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
@@ -42,10 +61,10 @@ search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
-  heading_level: 2
+  heading_level: 6
   # Maximum amount of previews per search result
   # Default: 3
-  previews: 3
+  previews: 5
   # Maximum amount of words to display before a matched word in the preview
   # Default: 5
   preview_words_before: 5
@@ -73,6 +92,22 @@ aux_links:
 aux_links_new_tab: true
 
 color_scheme: lxai-brand
+
+
+# Define Jekyll collections
+collections:
+# Define a collection named "docs", its documents reside in the "_docs" directory
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  papers:
+    permalink: "/:collection/:path/"
+    output: true
+  workshops:
+    permalink: "/:collection/:path/"
+    output: true
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
