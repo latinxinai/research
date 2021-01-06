@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="blog-header">
+      <h1 class="blog-title">Accepted Papers</h1>
+    </div>
+
+    <div>
+       
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 blog-main">
+        <div class="blog-post schedule">
+        <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
+          <colgroup>
+            <col style="width: 10%">
+            <col style="width: 50%">
+            <col style="width: 40%">
+          </colgroup>
+          <tbody>
+            <tr>
+                <th ><h4>Paper ID</h4></th>
+                <th ><h4>Paper Title</h4></th>
+                <th ><h4>Author Names</h4></th>
+            </tr>
+           
+            {% assign orderedPapers = site.tags.neurips-2020 | sort: "paperId" %}
+            {% for paper in orderedPapers %}
+           
+            <!--begin one author-->
+            <tr>
+                <td class="tg-0lax"> {{paper.paperId}}
+                <br>
+                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf.png" height="30"></a>
+                <br>
+                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}"><img src="../../../assets/icons/poster.png" height="30"></a>
+                </td>
+    
+                <td class="tg-0lax">
+                <!-- extra -->
+                <br>{{paper.title}}
+                <!-- tag -->
+                <br> <small><span class="label label-green">{{paper.topic}}</span></small>
+                <!-- category -->
+                <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+    
+                <td class="tg-0lax">{{paper.author}}</td>
+            </tr>
+          <!--Finish one author-->
+          {% endfor %} 
+        </tbody>
+    </table>
+
+  </div><!-- /.row -->
+
+</div><!-- /.container -->
+</div><!-- /.blog-post -->
+
+</div><!-- /.blog-main -->
