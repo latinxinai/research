@@ -28,7 +28,6 @@ twitter_username: _LXAI
 github_username: latinxinai
 
 # Build settings
-theme: "just-the-docs"
 plugins:
   - jekyll-feed
 
