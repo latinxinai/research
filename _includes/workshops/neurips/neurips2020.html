@@ -13,14 +13,19 @@
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
             <col style="width: 10%">
-            <col style="width: 50%">
             <col style="width: 40%">
+            <col style="width: 30%">
+            <col style="width: 10%">
+            <col style="width: 10%">
           </colgroup>
           <tbody>
             <tr>
                 <th ><h4>Paper ID</h4></th>
                 <th ><h4>Paper Title</h4></th>
                 <th ><h4>Author Names</h4></th>
+                <th ><h4>PDF</h4></th>
+                <th ><h4>Poster</h4></th>
+
             </tr>
            
             {% assign orderedPapers = site.tags.neurips-2020 | sort: "paperId" %}
@@ -28,16 +33,13 @@
            
             <!--begin one author-->
             <tr>
-                <td class="tg-0lax"> {{paper.paperId}}
-                <br>
-                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf.png" height="30"></a>
-                <br>
-                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}"><img src="../../../assets/icons/poster.png" height="30"></a>
-                </td>
+                <td class="tg-0lax"> 
+                  {{paper.paperId}}
+               </td>
     
                 <td class="tg-0lax">
                 <!-- extra -->
-                <br>{{paper.title}}
+                {{paper.title}}
                 <!-- tag -->
                 <br> <small><span class="label label-green">{{paper.topic}}</span></small>
                 <!-- category -->
@@ -45,6 +47,14 @@
                 </td>
     
                 <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf2.png" height="30"></a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}"><img src="../../../assets/icons/research.png" height="30"></a>
+                </td>
             </tr>
           <!--Finish one author-->
           {% endfor %} 
