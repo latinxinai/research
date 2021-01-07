@@ -36,7 +36,7 @@ logo: "/assets/images/logo/LXAI-navlogo.png"
 
 # permalink: /:title/
 
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Footer content
 # appears at the bottom of every page's main content
