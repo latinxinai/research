@@ -93,3 +93,4 @@ This journal was built with the inspiration from these themes, engineers, journa
 
 This site has been modified by and built upon by the following members of our community:
 - [Laura Montoya](https://github.com/quickresolve)
+- [Sara Iris Garcia](https://github.com/montjoile)
