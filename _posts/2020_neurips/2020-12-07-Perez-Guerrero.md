@@ -1,5 +1,5 @@
 ---
-paperId: 30
+paperId: 8
 author: Pérez Guerrero, Carmina; Ciprián Sánchez, Jorge F*; Méndez Ruiz, Mauricio; Ochoa Ruiz, Gilberto 
 title: Semantic Segmentation of Jet Fire Temperature Zones using Deep Learning
 pdf: Perez-Guerrero_Short_8.pdf

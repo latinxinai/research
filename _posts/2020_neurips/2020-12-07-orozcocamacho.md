@@ -1,5 +1,5 @@
 ---
-paperId: 28
+paperId: 55
 author: Orozco, Albert M*; Lévy, Sacha; Rabbany, Reihaneh
 title: Graph Neural Networks Learn Twitter Bot Behaviour
 pdf: orozcocamacho_poster_55.pdf

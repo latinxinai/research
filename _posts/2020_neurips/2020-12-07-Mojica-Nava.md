@@ -1,5 +1,5 @@
 ---
-paperId: 22
+paperId: 18
 author: Mojica-Nava, Eduardo; Yanguas-Rojas, David; Uribe, Cesar A*
 title: Robust Asynchronous and Network-Independent Cooperative Learning
 pdf: Mojica-Nava_Shortpresentation_Paper_18.pdf

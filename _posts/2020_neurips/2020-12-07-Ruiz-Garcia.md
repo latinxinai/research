@@ -1,5 +1,5 @@
 ---
-paperId: 9
+paperId: 46
 author: Ruiz-Garcia, Ariel; Almakky, Ibrahim; Palade, Vasile; Hicks, Luke
 title: Generative Adversarial Stacked Autoencoders
 pdf: Ariel_RuizGarcia_long_46.pdf

@@ -1,5 +1,5 @@
 ---
-paperId: 31
+paperId: 34
 author: Pfeifer, Lauren M*; Valdenegro-Toro, Matias
 title: Automatic Detection and Classification of Tick-borne Skin Lesions using Deep Learning
 pdf: Pfeifer_ValdenegroToro_ShortPres_34.pdf
