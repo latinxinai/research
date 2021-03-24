@@ -1,0 +1,22 @@
+---
+layout: post
+---
+<div class='article'>
+    <h2>Journal of LatinX in AI Research</h2>
+    <p>Presented at the LXAI Research Workshop, co-located with the {{page.conference}}, {{page.month}}, {{ page.year}}</p>
+       <!-- tag -->
+       <br> <small><span class="label label-green">{{page.topic}}</span></small>
+       <!-- category -->
+       <small> <span class="label label-blue">{{page.type}}</span></small>
+    <hr>
+    <h1>{{page.title}}</h1>
+    <h4>{{page.author}}</h4>
+    <h3>Abstract</h3>
+    <p>{{page.abstract}}</p>
+    {{ content }}
+    <hr>
+    <a target="_blank" href="../../../papers/{{page.conf}}/{{page.year}}/pdf/{{page.pdf}}"><img src="../../../assets/icons/pdf2.png"> Download PDF</a><br>
+    <a target="_blank" href="../../../papers/{{page.conf}}/{{page.year}}/png/{{page.poster}}"><img src="../../../assets/icons/research.png"> Download Poster</a>
+    <h3>Cite</h3>
+    <p>{{page.author}}. {{page.year}}. {{page.title}}. <i>Journal of LatinX in AI Research, Volume</i>(Issue), page range. <a href=" https://doi.org/{{page.doi}}"> https://doi.org/{{page.doi}}</a></p>
+</div>
