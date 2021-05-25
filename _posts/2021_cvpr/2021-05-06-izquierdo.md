@@ -4,8 +4,8 @@ author: Izquierdo Cordova, Ramon; Mayol-Cuevas, Walterio
 title: Filter Distribution Templates in Convolutional Networks for Image Classification Tasks
 pdf: --
 poster: --
-alt: --
-type: --
+type: Oral
+topic: Deep Learning
 category: Full Paper
 link: --
 conference: cvpr

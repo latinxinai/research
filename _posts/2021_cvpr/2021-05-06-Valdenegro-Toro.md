@@ -4,9 +4,9 @@ author: Valdenegro-Toro, Matias
 title: I Find Your Lack of Uncertainty in Computer Vision Disturbing
 pdf: --
 poster: --
-alt: --
-type: --
-category: Full Paper 
+type: Oral
+topic: Explainable AI
+category: Full Paper
 link: --
 conference: cvpr
 year: 2021

@@ -4,11 +4,11 @@ author: Lopez-Tiro, Francisco; Varelo-Silgado, Andres; Mendez Ruiz, Mauricio; Hi
 title: Assessing deep learning methods for the identification of kidney stones composition in endoscopic images
 pdf: --
 poster: --
-alt: --
-type: --
+type: Poster
+topic: Medical
 category: Extended Abstract
 link: --
 conference: cvpr
 year: 2021
-tags: cvpr-2021
+tags: cvpr-2021-ea
 ---

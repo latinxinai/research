@@ -4,8 +4,8 @@ author: Suarez-Ramirez, Cuauhtemoc D; Gonzalez-Mendoza, Miguel; Chang Leonardo; 
 title: "A Bop and Beyond: A Second Order Optimizer for Binarized Neural Networks"
 pdf: --
 poster: --
-alt: --
-type: --
+type: Poster
+topic: Efficient Training
 category: Full Paper
 link: --
 conference: cvpr
