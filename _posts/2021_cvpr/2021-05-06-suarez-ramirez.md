@@ -2,8 +2,8 @@
 paperId: 47
 author: Suarez-Ramirez, Cuauhtemoc D; Gonzalez-Mendoza, Miguel; Chang Leonardo; Ochoa-Ruiz Gilberto; Duran-Vega, Mario A
 title: "A Bop and Beyond: A Second Order Optimizer for Binarized Neural Networks"
-pdf: --
-poster: --
+pdf: 47_CameraReady_47.pdf
+poster: 47_poster_47.png
 type: Poster
 topic: Efficient Training
 category: Full Paper
