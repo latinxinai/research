@@ -2,8 +2,8 @@
 paperId: 13
 author: Perez-Martin, Jesus; Pérez, Jorge; Bustos, Benjamin
 title: Visual-Syntactic Embedding for Video Captioning
-pdf: --
-poster: --
+pdf: 13_CameraReady_13.pdf
+poster: 13_poster_13.png
 type: Oral
 topic: Video + Language
 category: Extended Abstract
