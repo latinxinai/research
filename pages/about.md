@@ -1,5 +1,5 @@
 ---
 layout: default
-title: About
+title: '*About'
 ---
 {% include about.html%}
