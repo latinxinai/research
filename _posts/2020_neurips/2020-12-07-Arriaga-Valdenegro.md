@@ -1,6 +1,7 @@
 ---
 paperId: 33
 author: Arriaga, Octavio; Valdenegro-Toro, Matias
+publicationauthor: Valdenegro-Toro, M.
 title: Unsupervised Difficulty Estimation with Action Scores
 pdf: Arriaga-Valdenegro_LongPresentation_33.pdf
 poster: Arriaga-Valdenegro_LongPresentation_33.png

@@ -1,6 +1,7 @@
 ---
 paperId: 40
 author: Carvalho, Gustavo Sutter; Ponti, Moacir
+publicationauthor: Carvalho, G. S.
 title: An evaluation metric for generative models using hierarchical clustering
 pdf: Carvalho_Long_40.pdf
 poster: Carvalho_Long_40.png

@@ -1,6 +1,7 @@
 ---
 paperId: 27
 author: Arriaga-Varela, Enrique; Takahashi, Toru
+publicationauthor: Arriaga-Valera, E.
 title: Automatic Georeferencing of Map Images Using Unsupervised Learning and Graph Analysis
 pdf: ArriagaVarela_short_presentation_27.pdf
 poster: ArriagaVarela_short_presentation_27.png
