@@ -7,7 +7,7 @@ poster: ArriagaVarela_short_presentation_27.png
 alt: --
 type: Poster
 topic: Applications
-link: --
+link: https://research.latinxinai.org/papers/neurips/2020/pdf/ArriagaVarela_short_presentation_27.pdf
 conference: neurips
 year: 2020
 tags: neurips-2020

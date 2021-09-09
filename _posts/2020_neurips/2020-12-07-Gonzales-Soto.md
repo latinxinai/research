@@ -7,7 +7,7 @@ poster: GonzalezSoto_LongPresentation_13.png
 alt: --
 type: Oral
 topic: Machine Learning
-link: --
+link: https://research.latinxinai.org/papers/neurips/2020/pdf/GonzalezSoto_LongPresentation_13.pdf
 conference: neurips
 year: 2020
 tags: neurips-2020

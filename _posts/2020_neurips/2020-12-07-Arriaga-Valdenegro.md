@@ -7,7 +7,7 @@ poster: Arriaga-Valdenegro_LongPresentation_33.png
 alt: --
 type: Oral
 topic: Deep Learning
-link: --
+link: https://research.latinxinai.org/papers/neurips/2020/pdf/Arriaga-Valdenegro_LongPresentation_33.pdf
 conference: neurips
 year: 2020
 tags: neurips-2020
