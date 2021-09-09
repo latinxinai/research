@@ -1,7 +1,7 @@
 ---
 paperId: 21
 author: Iyer, Vijayasri; Orduz-Ducuara, Javier A*
-publicationauthor: Orduz-Ducuara, J. A.
+publicationauthor: Orduz-Ducuara, J. A. et al.
 title: Quantum Machine Learning concepts and applications
 pdf: JavierOrduz_short.pdf
 poster: JavierOrduz_short.png
@@ -12,4 +12,5 @@ link: https://research.latinxinai.org/papers/neurips/2020/pdf/JavierOrduz_short.
 conference: neurips
 year: 2020
 tags: neurips-2020
+location: Virtual
 ---

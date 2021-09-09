@@ -1,7 +1,7 @@
 ---
 paperId: 40
 author: Carvalho, Gustavo Sutter; Ponti, Moacir
-publicationauthor: Carvalho, G. S.
+publicationauthor: Carvalho, G. S. et al.
 title: An evaluation metric for generative models using hierarchical clustering
 pdf: Carvalho_Long_40.pdf
 poster: Carvalho_Long_40.png
@@ -12,4 +12,5 @@ link: https://research.latinxinai.org/papers/neurips/2020/pdf/Carvalho_Long_40.p
 conference: neurips
 year: 2020
 tags: neurips-2020
+location: Virtual
 ---

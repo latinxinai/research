@@ -1,7 +1,7 @@
 ---
 paperId: 8
 author: Pérez Guerrero, Carmina; Ciprián Sánchez, Jorge F*; Méndez Ruiz, Mauricio; Ochoa Ruiz, Gilberto 
-publicationauthor: Ciprián Sánchez, J. F.
+publicationauthor: Ciprián Sánchez, J. F. et al.
 title: Semantic Segmentation of Jet Fire Temperature Zones using Deep Learning
 pdf: Perez-Guerrero_Short_8.pdf
 poster: Perez-Guerrero_Short_8.png
@@ -12,4 +12,5 @@ link: https://research.latinxinai.org/papers/neurips/2020/pdf/Perez-Guerrero_Sho
 conference: neurips
 year: 2020
 tags: neurips-2020
+location: Virtual
 ---
