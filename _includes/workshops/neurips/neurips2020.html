@@ -15,8 +15,9 @@
             <col style="width: 10%">
             <col style="width: 40%">
             <col style="width: 30%">
-            <col style="width: 10%">
-            <col style="width: 10%">
+            <col style="width: 15%">
+            <col style="width: 15%">
+            <col style="width: 40%">
           </colgroup>
           <tbody>
             <tr>
@@ -25,6 +26,7 @@
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
                 <th ><h4>Poster</h4></th>
+                <th><h4>Citation</h4></th>
 
             </tr>
            
@@ -54,6 +56,10 @@
                 <td class="tg-0lax">
                   <br>
                   <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}"><img src="../../../assets/icons/research.png" height="30"></a>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
+                  {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i>. <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
                 </td>
             </tr>
           <!--Finish one author-->
