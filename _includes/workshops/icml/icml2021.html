@@ -16,12 +16,13 @@
         <div class="blog-post schedule">
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
-            <col style="width: 5%">
-            <col style="width: 35%">
+            <col style="width: 10%">
+            <col style="width: 40%">
             <col style="width: 30%">
-            <col style="width: 10%">
-            <col style="width: 10%">
-            <col style="width: 10%">
+            <col style="width: 15%">
+            <col style="width: 15%">
+            <col style="width: 15%">
+            <col style="width: 35%">
           </colgroup>
           <tbody>
             <tr>
@@ -31,7 +32,7 @@
                 <th ><h4>PDF</h4></th>
                 <th ><h4>Poster</h4></th>
                 <th ><h4>Pitch</h4></th>
-
+                <th ><h4>Citation</h4></th>
             </tr>
            
             {% assign orderedPapers = site.tags.icml-2021 | sort: "paperId" %}
@@ -66,6 +67,11 @@
                 <td class="tg-0lax">
                   <br>
                   <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                  International Conference on Machine Learning Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
                 </td>
             </tr>
           <!--Finish one author-->

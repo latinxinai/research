@@ -95,3 +95,4 @@ This site has been modified by and built upon by the following members of our co
 - [Laura Montoya](https://github.com/quickresolve)
 - [Sara Iris Garcia](https://github.com/montjoile)
 - [Walter Mayor-Toro](https://github.com/waltermayor)
+- [Anthony Barrios](https://github.com/anthxnyR)
