@@ -3,3 +3,18 @@
         max-width: 2000px;
     } 
 } 
+
+ul.small.list-inline.col-md-12.article-journal-name{
+    display:-webkit-box;
+    li{
+        margin:0.25rem;
+    }
+}
+
+.main-content ul, .main-content ol{
+    padding-left: 0;
+}
+
+.main-content ul > li::before{
+    content: none;
+}
