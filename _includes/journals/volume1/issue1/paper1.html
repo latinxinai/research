@@ -1,0 +1,29 @@
+
+<h1>{{page.title}}</h1>
+
+<strong>Author(s): {{page.author}}</strong> <br>
+<strong><a target="_blank" href="{{paper.link}}"><img src="../../../assets/icons/pdf2.png" style="height: 15px;"> Get PDF</a></strong>
+
+<div class="article-parents col-md-12">
+    <div class="row">
+        <ul class="small list-inline col-md-12 article-journal-name" style="vertical-align:top">
+            <li style="margin: 0;"><strong style="font-size: larger;">Journal of LatinX in AI Research</strong></li>
+            <li> - <a href="#" target="_blank">Volume {{page.volume}}</a>,</li>
+            <li><a target="_blank" href="#">Issue {{page.issue}}</a>,</li>
+            <li>{{page.pagesnumber}}</li>
+            <li>({{page.year}})</li>
+                                                                                        <!--href here should be {{page.doilink}}-->            
+            <li class="article-doi"><span class="separator-disc">• </span><a target="_blank" href="#">{{page.doilink}}</a></li>
+        </ul>
+    </div>
+</div>
+
+<h2>Abstract</h2>
+<p>{{page.abstract}}</p>
+
+<strong>Citation:</strong>
+<p>{{page.publicationauthor}}, ({{page.year}}). 
+    <i>{{page.title}}</i> 
+    [{{page.type}} Presentation]. Neural Information Processing Systems Conference: LatinX in AI (LXAI) 
+    Research Workshop {{page.year}}, {{page.location}}. <a href="{{page.link}}" target="_blank">
+    {{page.link}}</a> </p>
