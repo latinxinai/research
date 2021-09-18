@@ -20,6 +20,7 @@ doilink: Here'sGonnaBeTheDOILink
 abstract: Here's gonna be the abstract text.
 parent: Issue 1
 grand_parent: Volume I
+published: false
 ---
 
 {%include /journals/volume1/issue1/paper1.html%}
