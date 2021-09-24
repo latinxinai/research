@@ -1,5 +1,5 @@
 ---
-paperId: 1
+paperId: 22
 author: Isabela Albuquerque, João Monteiro, Tiago Falk
 publicationauthor: Albuquerque, I. et al.
 title: Generating Videos by Traversing Image Manifolds Learned by GANs
@@ -12,5 +12,5 @@ link: --
 conference: neurips
 year: 2018
 tags: neurips-2018
-location: --
+location: Montreal, Canada
 ---

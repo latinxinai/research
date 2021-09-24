@@ -1,5 +1,5 @@
 ---
-paperId: 1
+paperId: 2
 author: Alfredo Alejandro De la Fuente Briceño, Maxim Panov
 publicationauthor: De la Fuente Briceño, A. A. et al.
 title: Semi-Supervised Classification of Nodes in Graphs via Anonymous Walks Embeddings
@@ -12,5 +12,5 @@ link: --
 conference: neurips
 year: 2018
 tags: neurips-2018
-location: --
+location: Montreal, Canada
 ---
