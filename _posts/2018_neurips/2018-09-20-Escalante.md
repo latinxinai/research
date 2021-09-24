@@ -3,7 +3,7 @@ paperId: 21
 author: Hugo Jair Escalante Balderas, Jorge G. Madrid, Eduardo Morales
 publicationauthor: Escalante Bandera, H. J. et al.
 title: ChaLearn AutoML Challenges
-pdf: --
+pdf: Poster_Hugo_Escalante.pdf
 poster: --
 alt: --
 type: Poster

@@ -3,7 +3,7 @@ paperId: 18
 author: Gonzalo Barrientos, Cristina Calnegru
 publicationauthor: Barrientos, G.
 title: Non Synergistic VAE
-pdf: --
+pdf: Oral_Gonzalo_Barrientos.pdf
 poster: --
 alt: --
 type: Oral & Poster
