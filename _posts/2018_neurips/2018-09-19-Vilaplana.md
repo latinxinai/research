@@ -3,7 +3,7 @@ paperId: 56
 author: Verónica Vilaplana, Marc Combalia
 publicationauthor: Vilaplana, V. et al.
 title: Multiple Instance Learning With Monte Carlo Sampling for Histological Image Classification
-pdf: --
+pdf: Poster_Veronica_Vilaplana.pdf
 poster: --
 alt: --
 type: Poster
