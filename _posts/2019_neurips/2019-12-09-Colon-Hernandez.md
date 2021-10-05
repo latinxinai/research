@@ -1,0 +1,16 @@
+---
+paperId: 66
+author: Pedro A. Colon-Hernandez
+publicationauthor: Colon-Hernandez, P. A.
+title: Does a dog desire cake? - Expanding Knowledge Base Assertions Through Deep Relationship Discovery
+pdf: --
+poster: --
+alt: --
+type: Poster
+topic: FAT
+link: --
+conference: neurips
+year: 2019
+tags: neurips-2019
+location: Vancouver, Canada
+---
