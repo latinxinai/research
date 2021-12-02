@@ -3,7 +3,7 @@ paperId: 66
 author: Pedro A. Colon-Hernandez
 publicationauthor: Colon-Hernandez, P. A.
 title: Does a dog desire cake? - Expanding Knowledge Base Assertions Through Deep Relationship Discovery
-pdf: --
+pdf: Poster_Colon-Hernandez_Pedro.pdf
 poster: --
 alt: --
 type: Poster

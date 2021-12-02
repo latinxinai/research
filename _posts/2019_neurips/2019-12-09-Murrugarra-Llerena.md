@@ -1,9 +1,9 @@
 ---
 paperId: 59
 author: Nils Murrugarra-Llerena
-publicationauthor: Murrugarra-Lleran, N.
+publicationauthor: Murrugarra-Llerena, N.
 title: Involving humans to learn attributes
-pdf: --
+pdf: Poster_Murrugarra-Llerena_Nils.pdf
 poster: --
 alt: --
 type: Poster

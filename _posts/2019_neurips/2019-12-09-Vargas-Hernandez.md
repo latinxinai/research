@@ -3,7 +3,7 @@ paperId: 71
 author: Rodrigo A. Vargas-Hernandez
 publicationauthor: Vargas-Hernandez, R. A.
 title: Gaussian Processes for simulating complex quantum systems
-pdf: --
+pdf: Poster_Vargas-Hernandez_Rodrigo.pdf
 poster: --
 alt: --
 type: Poster

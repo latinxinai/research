@@ -62,6 +62,39 @@
             </tr>
           <!--Finish one author-->
           {% endfor %} 
+
+          {% assign orderedPapers = site.tags.neurips-2018-op-nf | sort: "paperId" %}
+          {% for paper in orderedPapers %}
+        
+          <!--begin one author-->
+          <tr>
+              <td class="tg-0lax">
+              <!-- extra -->
+              {{paper.title}}
+              <!-- tag -->
+              <br> <small><span class="label label-green">{{paper.topic}}</span></small>
+              <!-- category -->
+              <small> <span class="label label-blue">{{paper.type}}</span></small>
+              </td>
+
+              <td class="tg-0lax">{{paper.author}}</td>
+              <td class="tg-0lax">
+                <br>
+                
+              </td>
+              <td class="tg-0lax">
+                <br>
+              
+              </td>
+              <td style="max-width: 1px;" class="tg-0lax">
+                <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
+                {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
+                Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
+                <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+              </td>
+          </tr>
+        <!--Finish one author-->
+        {% endfor %}
         </tbody>
     </table>
 
@@ -121,7 +154,36 @@
                 </td>
             </tr>
           <!--Finish one author-->
-          {% endfor %} 
+          {% endfor %}
+          
+          {% assign orderedPapers = site.tags.neurips-2018-nf | sort: "paperId" %}
+          {% for paper in orderedPapers %}
+        
+          <!--begin one author-->
+          <tr>
+              <td class="tg-0lax">
+              <!-- extra -->
+              {{paper.title}}
+              <!-- tag -->
+              <br> <small><span class="label label-green">{{paper.topic}}</span></small>
+              <!-- category -->
+              <small> <span class="label label-blue">{{paper.type}}</span></small>
+              </td>
+
+              <td class="tg-0lax">{{paper.author}}</td>
+              <td class="tg-0lax">
+                <br>
+                
+              </td>
+              <td style="max-width: 1px;" class="tg-0lax">
+                <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
+                {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
+                Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
+                <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+              </td>
+          </tr>
+        <!--Finish one author-->
+        {% endfor %}  
         </tbody>
     </table>
 

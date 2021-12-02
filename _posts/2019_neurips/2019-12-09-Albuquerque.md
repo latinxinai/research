@@ -3,7 +3,7 @@ paperId: 29
 author: Isabela Albuquerque
 publicationauthor: Albuquerque, I.
 title: Adversarial target-invariant representation learning
-pdf: --
+pdf: Poster_Albuquerque_Isabela.pdf
 poster: --
 alt: --
 type: Poster

@@ -11,6 +11,6 @@ topic: Machine Learning Applications
 link: --
 conference: neurips
 year: 2018
-tags: neurips-2018
+tags: neurips-2018-nf
 location: Montreal, Canada
 ---

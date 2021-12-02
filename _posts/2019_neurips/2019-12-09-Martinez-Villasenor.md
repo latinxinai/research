@@ -3,7 +3,7 @@ paperId: 47
 author: Lourdes Martinez-Villaseñor
 publicationauthor: Martinez-Villaseñor, L.
 title: Overview of UP-Fall Detection Project
-pdf: --
+pdf: Poster_Martinez-Villaseñor_Lourdes.pdf
 poster: --
 alt: --
 type: Poster

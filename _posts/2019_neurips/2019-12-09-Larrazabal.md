@@ -3,7 +3,7 @@ paperId: 4
 author: Agostina Larrazabal
 publicationauthor: Larrazabal, A.
 title: Anatomical Priors for Image Segmentation via Post-Processing with Denoising Autoencoders
-pdf: --
+pdf: Poster_Larrazabal_Agostina.pdf
 poster: --
 alt: --
 type: Poster

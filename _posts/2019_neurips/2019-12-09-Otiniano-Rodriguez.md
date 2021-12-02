@@ -3,7 +3,7 @@ paperId: 45
 author: Karla C. Otiniano-Rodríguez
 publicationauthor: Otiniano-Rodríguez, K. C.
 title: Object Recognition using a Region Detector Based on Hierarchies of Partitions
-pdf: --
+pdf: Poster_Otiniano-Rodriguez_Karla.pdf
 poster: --
 alt: --
 type: Poster

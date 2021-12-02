@@ -3,7 +3,7 @@ paperId: 16
 author: Daniel Ruiz-Perez
 publicationauthor: Ruiz-Perez, D.
 title: Role of gut microbiota and their temporal interactions in kidney transplant recipients 
-pdf: --
+pdf: Poster_Ruiz-Perez_Daniel.pdf
 poster: --
 alt: --
 type: Poster

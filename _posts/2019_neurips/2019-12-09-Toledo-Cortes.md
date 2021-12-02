@@ -3,7 +3,7 @@ paperId: 83
 author: Santiago Toledo-Cortés
 publicationauthor: Toledo-Cortés, S.
 title: Large Scale Learning Techniques For Least Squares Support Vector Machines 
-pdf: --
+pdf: Poster_Toledo-Cortes_Santiago.pdf
 poster: --
 alt: --
 type: Poster

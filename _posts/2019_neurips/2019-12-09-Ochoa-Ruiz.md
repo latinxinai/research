@@ -3,7 +3,7 @@ paperId: 27
 author: Gilberto Ochoa-Ruiz
 publicationauthor: Ochoa-Ruiz, G.
 title: Road Damage Acquisition System based on RetinaNet for Physical Asset Management
-pdf: --
+pdf: Poster_Ochoa-Ruiz_Gilberto.pdf
 poster: --
 alt: --
 type: Poster

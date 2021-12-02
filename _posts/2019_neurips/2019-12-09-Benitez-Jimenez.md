@@ -3,7 +3,7 @@ paperId: 73
 author: Ricardo Benitez-Jimenez
 publicationauthor: Benitez-Jimenez, R.
 title: Meta-Webly Supervised Learning for object recognition
-pdf: --
+pdf: Poster_Benitez-Jimenez-Ricardo.pdf
 poster: --
 alt: --
 type: Poster

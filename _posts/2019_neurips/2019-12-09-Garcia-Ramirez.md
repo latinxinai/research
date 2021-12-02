@@ -3,7 +3,7 @@ paperId: 29
 author: Jesús García-Ramírez
 publicationauthor: García-Ramírez, J.
 title: Which Kernels to Transfer in Deep Q-Networks? 
-pdf: --
+pdf: Poster_Garcia-Ramirez_Jesus.pdf
 poster: --
 alt: --
 type: Poster

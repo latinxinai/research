@@ -3,7 +3,7 @@ paperId: 81
 author: Susana Benavidez
 publicationauthor: Benavidez, S.
 title: Improving Hate Speech Classification on Twitter
-pdf: --
+pdf: Poster_Benavidez_Susana.pdf
 poster: --
 alt: --
 type: Poster

@@ -3,7 +3,7 @@ paperId: 42
 author: Karol Baca-Lopez
 publicationauthor: Baca-Lopez, K.
 title: A genetic algorithm implementation for spatio-temporal variogram modelling to determine air quality monitoring network representativeness
-pdf: --
+pdf: Poster_Baca-Lopez_Karol.pdf
 poster: --
 alt: --
 type: Poster

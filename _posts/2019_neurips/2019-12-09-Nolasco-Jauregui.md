@@ -3,7 +3,7 @@ paperId: 65
 author: Oralia Nolasco-Jauregui
 publicationauthor: Nolasco-Jauregui, O.
 title: A Machine Learning approach to Neural Information Decoding of Spike Train Distances in the Peripheral Nervous System
-pdf: --
+pdf: Poster_Nolasco-Jauregui_Oralia.pdf
 poster: --
 alt: --
 type: Poster

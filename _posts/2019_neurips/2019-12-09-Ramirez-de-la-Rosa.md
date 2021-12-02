@@ -3,7 +3,7 @@ paperId: 1
 author: Gabriela Ramirez-de-la-Rosa
 publicationauthor: Ramirez-de-la-Rosa, G.
 title: Mental Lexicon for Personality Identification in Texts
-pdf: --
+pdf: Poster_Ramirez-De-La-Rosa_Gabriela.pdf
 poster: --
 alt: --
 type: Poster
