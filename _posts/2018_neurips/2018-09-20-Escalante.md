@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Machine Learning Methods
-link: --
+link: https://research.latinxinai.org/papers/neurips/2018/pdf/Poster_Hugo_Escalante.pdf
 conference: neurips
 year: 2018
 tags: neurips-2018

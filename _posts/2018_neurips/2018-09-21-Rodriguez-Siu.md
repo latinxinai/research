@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Knowledge Representation and Reasoning
-link: --
+link: https://research.latinxinai.org/papers/neurips/2018/pdf/Poster_Kevin_Rodriguez-Siu.pdf
 conference: neurips
 year: 2018
 tags: neurips-2018
