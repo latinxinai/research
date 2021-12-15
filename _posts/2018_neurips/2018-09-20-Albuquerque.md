@@ -9,7 +9,7 @@ slide: Slide_Isabela_Albuquerque.pdf
 alt: --
 type: Oral & Poster
 topic: Machine Learning Methods
-link: --
+link: https://research.latinxinai.org/papers/neurips/2018/pdf/Oral_Isabela_Albuquerque.pdf
 conference: neurips
 year: 2018
 tags: neurips-2018-op

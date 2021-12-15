@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: FAT
-link: --
+link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Martinez-Villase%C3%B1or_Lourdes.pdf
 conference: neurips
 year: 2019
 tags: neurips-2019

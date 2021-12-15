@@ -8,7 +8,7 @@ poster: Poster_Alfredo_Delafuente.pdf
 alt: --
 type: Poster
 topic: Machine Learning Methods
-link: --
+link: https://research.latinxinai.org/papers/neurips/2018/pdf/MarquezHerrera_Abstract.pdf
 conference: neurips
 year: 2018
 tags: neurips-2018

@@ -9,7 +9,7 @@ slide: Slide_Pedro_Colon-Hernandez.pdf
 alt: --
 type: Oral & Poster
 topic: Machine Learning Applications
-link: --
+link: https://research.latinxinai.org/papers/neurips/2018/pdf/Oral_Pedro_ColonHernandez.pdf
 conference: neurips
 year: 2018
 tags: neurips-2018-op
