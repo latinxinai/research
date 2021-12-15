@@ -7,7 +7,7 @@ pdf: Poster_Ramirez-De-La-Rosa_Gabriela.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Neuro Linguistic Programming
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Ramirez-De-La-Rosa_Gabriela.pdf
 conference: neurips
 year: 2019

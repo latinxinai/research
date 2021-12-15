@@ -7,7 +7,7 @@ pdf: Poster_Vargas-Hernandez_Rodrigo.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Machine Learning
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Vargas-Hernandez_Rodrigo.pdf
 conference: neurips
 year: 2019

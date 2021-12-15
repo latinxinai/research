@@ -7,7 +7,7 @@ pdf: Oral_Rodriguez_Paula.pdf
 poster: --
 alt: --
 type: Oral
-topic: FAT
+topic: Applications
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Oral_Rodriguez_Paula.pdf
 conference: neurips
 year: 2019

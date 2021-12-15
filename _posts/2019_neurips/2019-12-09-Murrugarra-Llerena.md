@@ -7,7 +7,7 @@ pdf: Poster_Murrugarra-Llerena_Nils.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Computer Vision
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Murrugarra-Llerena_Nils.pdf
 conference: neurips
 year: 2019
