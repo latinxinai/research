@@ -7,7 +7,7 @@ pdf: Poster_Benavidez_Susana.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Neuro Linguistic Programming
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Benavidez_Susana.pdf
 conference: neurips
 year: 2019

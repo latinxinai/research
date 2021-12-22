@@ -7,7 +7,7 @@ pdf: Poster_Colon-Hernandez_Pedro.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Representation Learning
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Colon-Hernandez_Pedro.pdf
 conference: neurips
 year: 2019

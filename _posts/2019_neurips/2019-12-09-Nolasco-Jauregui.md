@@ -7,7 +7,7 @@ pdf: Poster_Nolasco-Jauregui_Oralia.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Medical Data
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Nolasco-Jauregui_Oralia.pdf
 conference: neurips
 year: 2019

@@ -7,7 +7,7 @@ pdf: Poster_Garcia-Ramirez_Jesus.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Robotics
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Garcia-Ramirez_Jesus.pdf
 conference: neurips
 year: 2019
