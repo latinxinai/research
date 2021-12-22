@@ -7,7 +7,7 @@ pdf: Oral_Rivas_Pablo.pdf
 poster: --
 alt: --
 type: Oral
-topic: FAT
+topic: Machine Learning
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Oral_Rivas_Pablo.pdf
 conference: neurips
 year: 2019

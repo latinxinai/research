@@ -7,7 +7,7 @@ pdf: Poster_Ruiz-Perez_Daniel.pdf
 poster: --
 alt: --
 type: Poster
-topic: FAT
+topic: Applications
 link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Ruiz-Perez_Daniel.pdf
 conference: neurips
 year: 2019
