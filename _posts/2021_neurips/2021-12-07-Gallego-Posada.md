@@ -7,7 +7,7 @@ pdf: --
 poster: Poster_Jose_Gallego-Posada.pdf
 alt: --
 type: Poster
-topic: FAT
+topic: Sparsity
 link: --
 conference: neurips
 year: 2021
