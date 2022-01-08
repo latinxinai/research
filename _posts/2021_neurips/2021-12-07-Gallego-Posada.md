@@ -7,7 +7,8 @@ pdf: --
 poster: Poster_Jose_Gallego-Posada.pdf
 alt: --
 type: Poster
-topic: Sparsity
+topic: Optimization
+subtopic: Sparsity
 link: --
 conference: neurips
 year: 2021
