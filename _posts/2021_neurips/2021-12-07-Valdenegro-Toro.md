@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Deep Learning
 subtopic: Uncertainty Quantification
-link: --
+link: https://research.latinxinai.org/papers/neurips/2021/posters/Poster_Valdenegro-Toro.pdf
 conference: neurips
 year: 2021
 tags: neurips-2021

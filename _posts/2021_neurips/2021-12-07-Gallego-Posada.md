@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Optimization
 subtopic: Sparsity
-link: --
+link: https://research.latinxinai.org/papers/neurips/2021/posters/Poster_Jose_Gallego-Posada.pdf
 conference: neurips
 year: 2021
 tags: neurips-2021
