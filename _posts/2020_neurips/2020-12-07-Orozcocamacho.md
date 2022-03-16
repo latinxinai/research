@@ -8,7 +8,7 @@ poster: orozcocamacho_poster_55.png
 alt: --
 type: Poster
 topic: Machine Learning
-link: https://research.latinxinai.org/papers/neurips/2020/pdf/orozcocamacho_poster_55.pdf
+link: https://doi.org/10.52591/lxai2020121213
 conference: neurips
 year: 2020
 tags: neurips-2020
