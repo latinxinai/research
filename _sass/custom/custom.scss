@@ -1,8 +1,15 @@
 @media (min-width: 50rem){
     .main{
-        max-width: 2000px;
+        margin-left: calc((100% - 1260px) / 2 + 264px);
     } 
 } 
+
+@media (min-width: 66.5rem){
+    .side-bar {
+        width: calc((100% - 1400px) / 2 + 250px);
+        min-width: 264px;
+    }
+}
 
 ul.small.list-inline.col-md-12.article-journal-name{
     display:-webkit-box;
