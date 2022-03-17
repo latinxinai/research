@@ -1,0 +1,182 @@
+<div class="container">
+
+    <div class="blog-header">
+      <h1 class="blog-title">Accepted Papers</h1>
+    </div>
+  
+    <div class="blog-header">
+      <h2 class="blog-title">Oral Presentations</h2>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-8 blog-main">
+        <div class="blog-post schedule">
+          <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
+            <colgroup>
+              <col style="width: 10%">
+              <col style="width: 40%">
+              <col style="width: 30%">
+              <col style="width: 15%">
+              <col style="width: 15%">
+              <col style="width: 35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <th ><h4>ID</h4></th>
+                <th ><h4>Paper Title</h4></th>
+                <th ><h4>Author Names</h4></th>
+                <th ><h4>PDF</h4></th>
+                <th ><h4>Poster</h4></th>
+                <th ><h4>Citation</h4></th>
+              </tr>
+             
+              {% assign orderedPapers = site.tags.icml-2020-op | sort: "paperId" %}
+              {% for paper in orderedPapers %}
+
+              <!--begin one author-->
+              <tr> 
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
+                <td class="tg-0lax">
+                  <!-- extra -->
+                  {{paper.title}}
+                  <!-- Topic -->
+                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
+                  <!--Subtopic-->
+                  <small><span class="label label-red">{{paper.subtopic}}</span></small>
+                  <!-- Presentation type -->
+                  <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+      
+                <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.poster}}.pdf"><img src="../../../assets/icons/pdf2.png" height="30"></a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}.png"><img src="../../../assets/icons/research.png" height="30"></a>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                  International Conference on Machine Learning: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                </td>
+              </tr>
+              <!--Finish one author-->
+              {% endfor %}
+            </tbody>
+          </table>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.blog-post -->
+
+    <div class="blog-header">
+      <h2 class="blog-title">Poster Presentations</h2>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-8 blog-main">
+        <div class="blog-post schedule">
+          <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
+            <colgroup>
+              <col style="width: 10%">
+              <col style="width: 40%">
+              <col style="width: 30%">
+              <col style="width: 15%">
+              <col style="width: 15%">
+              <col style="width: 35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <th ><h4>ID</h4></th>
+                <th ><h4>Paper Title</h4></th>
+                <th ><h4>Author Names</h4></th>
+                <th ><h4>PDF</h4></th>
+                <th ><h4>Poster</h4></th>
+                <th ><h4>Citation</h4></th>
+              </tr>
+             
+              {% assign orderedPapers = site.tags.icml-2020 | sort: "paperId" %}
+              {% for paper in orderedPapers %}
+
+              <!--begin one author-->
+              <tr> 
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
+                <td class="tg-0lax">
+                  <!-- extra -->
+                  {{paper.title}}
+                  <!-- Topic -->
+                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
+                  <!--Subtopic-->
+                  <small><span class="label label-red">{{paper.subtopic}}</span></small>
+                  <!-- Presentation type -->
+                  <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+      
+                <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.poster}}.pdf"><img src="../../../assets/icons/pdf2.png" height="30"></a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}.png"><img src="../../../assets/icons/research.png" height="30"></a>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                  International Conference on Machine Learning: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                </td>
+              </tr>
+              <!--Finish one author-->
+              {% endfor %}
+
+              <!--No paper files yet-->
+              {% assign orderedPapers = site.tags.icml-2020-np | sort: "paperId" %}
+              {% for paper in orderedPapers %}
+
+              <!--begin one author-->
+              <tr> 
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
+                <td class="tg-0lax">
+                  <!-- extra -->
+                  {{paper.title}}
+                  <!-- Topic -->
+                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
+                  <!--Subtopic-->
+                  <small><span class="label label-red">{{paper.subtopic}}</span></small>
+                  <!-- Presentation type -->
+                  <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+      
+                <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                  International Conference on Machine Learning: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                </td>
+              </tr>
+              <!--Finish one author-->
+              {% endfor %}
+            </tbody>
+          </table>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.blog-post -->
+
+</div>
