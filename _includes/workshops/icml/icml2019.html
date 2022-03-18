@@ -30,7 +30,7 @@
                 <th ><h4>Citation</h4></th>
               </tr>
              
-              {% assign orderedPapers = site.tags.icml-2020-op | sort: "paperId" %}
+              {% assign orderedPapers = site.tags.icml-2019-op | sort: "paperId" %}
               {% for paper in orderedPapers %}
 
               <!--begin one author-->
@@ -99,7 +99,7 @@
                 <th ><h4>Citation</h4></th>
               </tr>
              
-              {% assign orderedPapers = site.tags.icml-2020 | sort: "paperId" %}
+              {% assign orderedPapers = site.tags.icml-2019 | sort: "paperId" %}
               {% for paper in orderedPapers %}
 
               <!--begin one author-->
@@ -127,43 +127,6 @@
                 <td class="tg-0lax">
                   <br>
                   <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/png/{{paper.poster}}.png"><img src="../../../assets/icons/research.png" height="30"></a>
-                </td>
-                <td style="max-width: 1px;" class="tg-0lax">
-                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
-                  International Conference on Machine Learning: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
-                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
-                </td>
-              </tr>
-              <!--Finish one author-->
-              {% endfor %}
-
-              <!--No paper files yet-->
-              {% assign orderedPapers = site.tags.icml-2020-np | sort: "paperId" %}
-              {% for paper in orderedPapers %}
-
-              <!--begin one author-->
-              <tr> 
-                <td class="tg-0lax">
-                  {{paper.paperId}}
-                </td>
-
-                <td class="tg-0lax">
-                  <!-- extra -->
-                  {{paper.title}}
-                  <!-- Topic -->
-                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
-                  <!--Subtopic-->
-                  <small><span class="label label-red">{{paper.subtopic}}</span></small>
-                  <!-- Presentation type -->
-                  <small> <span class="label label-blue">{{paper.type}}</span></small>
-                </td>
-      
-                <td class="tg-0lax">{{paper.author}}</td>
-                <td class="tg-0lax">
-                  <br>
-                </td>
-                <td class="tg-0lax">
-                  <br>
                 </td>
                 <td style="max-width: 1px;" class="tg-0lax">
                   {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
