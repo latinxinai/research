@@ -1,0 +1,17 @@
+---
+paperId: 31
+author: Lino A. Rodriguez Coayahuitl
+publicationauthor: Rodriguez Coayahuitl, L. A.
+title: Deep Genetic Programming
+pdf: --
+poster: Poster_Lino_Rodriguez
+alt: --
+type: Poster
+topic: Deep Learning
+subtopic: Machine Learning
+link: 
+conference: icml
+year: 2019
+tags: icml-2019-np
+location: California, USA
+---
