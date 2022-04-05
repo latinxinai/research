@@ -8,7 +8,6 @@ poster: Poster_Leissi_Castaneda
 alt: --
 type: Poster
 topic: Deep Learning
-subtopic: Machine Learning
 link: 
 conference: icml
 year: 2019

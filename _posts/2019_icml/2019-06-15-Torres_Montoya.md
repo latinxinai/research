@@ -7,8 +7,7 @@ pdf: --
 poster: Poster_Abel_Torres
 alt: --
 type: Poster
-topic: Deep Learning
-subtopic: Machine Learning
+topic: General Machine Learning
 link: 
 conference: icml
 year: 2019

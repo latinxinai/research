@@ -7,8 +7,7 @@ pdf: --
 poster: Poster_Jeffri_Murrugarra
 alt: --
 type: Poster
-topic: Deep Learning
-subtopic: Machine Learning
+topic: Applications
 link: 
 conference: icml
 year: 2019
