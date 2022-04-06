@@ -7,8 +7,7 @@ pdf: --
 poster: Oral_Rosa_Paccotacya
 alt: --
 type: Oral
-topic: Deep Learning
-subtopic: Machine Learning
+topic: General Machine Learning
 link: 
 conference: icml
 year: 2019

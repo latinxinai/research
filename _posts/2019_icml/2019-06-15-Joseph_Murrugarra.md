@@ -8,7 +8,6 @@ poster: Poster_Joseph_Murrugarra
 alt: --
 type: Poster
 topic: Deep Learning
-subtopic: Machine Learning
 link: 
 conference: icml
 year: 2019

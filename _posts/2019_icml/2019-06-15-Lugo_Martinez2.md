@@ -7,8 +7,7 @@ pdf: --
 poster: Poster_Lugo-Martinez2
 alt: --
 type: Poster
-topic: Deep Learning
-subtopic: Machine Learning
+topic: Applications
 link: 
 conference: icml
 year: 2019
