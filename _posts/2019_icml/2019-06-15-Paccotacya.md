@@ -8,7 +8,7 @@ poster: Oral_Rosa_Paccotacya
 alt: --
 type: Oral
 topic: General Machine Learning
-link: 
+link: http://localhost:4000/papers/icml/2019/pdf/Oral_Rosa_Paccotacya.pdf
 conference: icml
 year: 2019
 tags: icml-2019-op-po
