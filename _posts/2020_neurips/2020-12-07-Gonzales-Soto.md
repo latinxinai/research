@@ -3,6 +3,7 @@ paperId: 13
 author: Gonzalez-Soto, Mauricio; Feliciano-Avelino, Ivan R*; Sucar, Luis E*; Escalante Balderas, Hugo J*
 publicationauthor: Gonzalez-Soto, M. et al.
 title: "Learning a causal structure: a Bayesian Random Graph approach"
+pitch: https://slideslive.com/38942716/learning-a-causal-structure-a-bayesian-random-graph-approach?ref=folder-65639
 pdf: GonzalezSoto_LongPresentation_13.pdf
 poster: GonzalezSoto_LongPresentation_13.png
 alt: --

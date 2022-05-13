@@ -3,7 +3,7 @@ paperId: 14
 author: Jeffri Murrugarra Llerena
 publicationauthor: Murrugarra Llerena, J.
 title: Word Embeddings to analyze Peruvian computing curriculums
-pdf: --
+pitch: https://slideslive.com/38930535/word-embeddings-to-analyze-peruvian-computing-curriculums?ref=folder-55828
 poster: Poster_Jeffri_Murrugarra
 alt: --
 type: Poster
