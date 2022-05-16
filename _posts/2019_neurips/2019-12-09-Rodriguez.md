@@ -3,6 +3,7 @@ paperId: 70
 author: Paula Rodriguez
 publicationauthor: Rodriguez, P.
 title: Efficient allocation of law enforcement resources using predictive police patrolling
+pitch: https://slideslive.com/38922598/efficient-allocation-of-law-enforcement-resources-using-predictive-police-patrolling?ref=folder-78029
 pdf: Oral_Rodriguez_Paula.pdf
 poster: --
 alt: --

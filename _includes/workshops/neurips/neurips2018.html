@@ -18,6 +18,7 @@
             <col style="width: 30%">
             <col style="width: 15%">
             <col style="width: 15%">
+            <col style="width: 15%">
             <col style="width: 40%">
           </colgroup>
           <tbody>
@@ -26,6 +27,7 @@
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
                 <th ><h4>Slide</h4></th>
+                <th ><h4>Pitch</h4></th>
                 <th><h4>Citation</h4></th>
 
             </tr>
@@ -52,6 +54,10 @@
                 <td class="tg-0lax">
                   <br>
                   <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/slides/{{paper.slide}}"><img src="../../../assets/icons/research.png" height="30"></a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
                 </td>
                 <td style="max-width: 1px;" class="tg-0lax">
                   <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
@@ -80,11 +86,13 @@
               <td class="tg-0lax">{{paper.author}}</td>
               <td class="tg-0lax">
                 <br>
-                
               </td>
               <td class="tg-0lax">
                 <br>
-              
+              </td>
+              <td class="tg-0lax">
+                <br>
+                <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
               </td>
               <td style="max-width: 1px;" class="tg-0lax">
                 <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
