@@ -3,6 +3,7 @@ paperId: 47
 author: Pedro Colon-Hernandez, V. Michael Bove
 publicationauthor: Colon-Hernandez, P. et al.
 title: "Hover: A Wearable Object Identification System for Audio Augmented Reality Interactions"
+pitch: https://youtu.be/lxaT5b-222w?list=PLldrX-tcWesPs3UXagQ38Dx7POaxGvcNV&t=3236
 pdf: Oral_Pedro_ColonHernandez.pdf
 poster: --
 slide: Slide_Pedro_Colon-Hernandez.pdf

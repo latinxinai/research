@@ -3,7 +3,7 @@ paperId: 2
 author: Daniel Ruiz-Perez, Jose Lugo-Martinez, Ziv Bar-Joseph, Giri Narasimhan
 publicationauthor: Ruiz-Perez, D. et al.
 title: Application of Bayesian Techniques to Multi-omic Longitudinal Data
-pdf: --
+pitch: https://slideslive.com/38930528/application-of-bayesian-techniques-to-multiomic-longitudinal-data?ref=folder-55828
 poster: Oral_Daniel_Ruiz
 alt: --
 type: Oral

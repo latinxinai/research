@@ -3,6 +3,7 @@ paperId: 10
 author: Rühling Cachay, Salva; Boecking, Benedikt; Dubrawski, Artur
 publicationauthor: Rühling Cachay, S. et al.
 title: Model Misspecification in Multiple Weak Supervision
+pitch: https://slideslive.com/38942435/model-misspecification-in-multiple-weak-supervision?ref=folder-65639
 pdf: Rühling-Cachay_LONG_10.pdf
 poster: Rühling-Cachay_LONG_10.png
 alt: --
