@@ -9,7 +9,7 @@ poster: Oral_Rodrigo_RillGarcia
 alt: --
 type: Oral
 topic: General Machine Learning
-link: 
+link: https://doi.org/10.52591/lxai201906152
 conference: icml
 year: 2019
 tags: icml-2019-op
