@@ -8,7 +8,7 @@ poster: Poster_Julissa_Villanueva
 alt: --
 type: Poster
 topic: General Machine Learning
-link: 
+link: https://research.latinxinai.org/papers/icml/2019/pdf/Poster_Julissa_Villanueva.pdf
 conference: icml
 year: 2019
 tags: icml-2019-ab

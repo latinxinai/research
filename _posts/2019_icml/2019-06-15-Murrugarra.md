@@ -8,7 +8,7 @@ poster: Poster_Jeffri_Murrugarra
 alt: --
 type: Poster
 topic: Applications
-link: 
+link: https://research.latinxinai.org/papers/icml/2019/pdf/Poster_Jeffri_Murrugarra.pdf
 conference: icml
 year: 2019
 tags: icml-2019-ab
