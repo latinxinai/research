@@ -12,6 +12,6 @@ category: Full Paper
 link: https://research.latinxinai.org/papers/cvpr/2021/pdf/40_CameraReady_40.pdf
 conference: cvpr
 year: 2021
-tags: cvpr-2021
+tags: cvpr-2021-nopitch
 location: Virtual
 ---
