@@ -9,7 +9,7 @@ alt: --
 type: Oral
 topic: Machine Learning
 subtopic: Applications
-link: 
+link: https://research.latinxinai.org/papers/icml/2020/pdf/Oral_Daniel_Ruiz.pdf
 conference: icml
 year: 2020
 tags: icml-2020-op
