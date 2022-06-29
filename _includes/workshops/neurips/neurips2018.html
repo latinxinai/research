@@ -14,15 +14,17 @@
         <div class="blog-post schedule">
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
+            <col style="width: 10%">
             <col style="width: 40%">
             <col style="width: 30%">
             <col style="width: 15%">
             <col style="width: 15%">
             <col style="width: 15%">
-            <col style="width: 40%">
+            <col style="width: 35%">
           </colgroup>
           <tbody>
             <tr>
+                <th ><h4>ID</h4></th>
                 <th ><h4>Paper Title</h4></th>
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
@@ -37,6 +39,10 @@
            
             <!--begin one author-->
             <tr>
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
                 <td class="tg-0lax">
                 <!-- extra -->
                 {{paper.title}}
@@ -111,6 +117,10 @@
           <!--begin one author-->
           <tr>
               <td class="tg-0lax">
+                {{paper.paperId}}
+              </td>
+
+              <td class="tg-0lax">
               <!-- extra -->
               {{paper.title}}
               <!-- tag -->
@@ -157,6 +167,7 @@
         <div class="blog-post schedule">
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
+            <col style="width: 10%">
             <col style="width: 40%">
             <col style="width: 30%">
             <col style="width: 15%">
@@ -164,6 +175,7 @@
           </colgroup>
           <tbody>
             <tr>
+                <th ><h4>ID</h4></th>
                 <th ><h4>Paper Title</h4></th>
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
@@ -176,6 +188,10 @@
           
             <!--begin one author-->
             <tr>
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
                 <td class="tg-0lax">
                 <!-- extra -->
                 {{paper.title}}
@@ -205,6 +221,10 @@
         
           <!--begin one author-->
           <tr>
+              <td class="tg-0lax">
+                {{paper.paperId}}
+              </td>
+
               <td class="tg-0lax">
               <!-- extra -->
               {{paper.title}}
