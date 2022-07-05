@@ -193,11 +193,50 @@
                 Computer Vision and Pattern Recognition Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
                 <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
               </td>
+            </tr>
+          <!--Finish one author-->
+          {% endfor %}
+        
+          {% assign orderedPapers = site.tags.cvpr-2021-ea-np | sort: "paperId" %}
+          {% for paper in orderedPapers %}
+         
+          <!--begin one author-->
+          <tr>
+              <td class="tg-0lax"> 
+                {{paper.paperId}}
+             </td>
+  
+              <td class="tg-0lax">
+              <!-- extra -->
+              {{paper.title}}
+              <!-- Topic -->
+              <br> <small><span class="label label-green">{{paper.topic}}</span></small>
+              <!-- Submission Category -->
+              <small> <span class="label label-blue">{{paper.category}}</span></small>
+              <!-- Presentation type -->
+              <small> <span class="label label-red">{{paper.type}}</span></small>
+              </td>
+  
+              <td class="tg-0lax">{{paper.author}}</td>
+              <td class="tg-0lax">
+                <br>
+              </td>
+              <td class="tg-0lax">
+                <br>
+              </td>
+              <td class="tg-0lax">
+                <br>
+              </td>
+              <td style="max-width: 1px;" class="tg-0lax">
+                {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                Computer Vision and Pattern Recognition Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+              </td>
           </tr>
-        <!--Finish one author-->
-        {% endfor %} 
-      </tbody>
-  </table>
+          <!--Finish one author-->
+          {% endfor %}
+        </tbody>
+      </table>
 
 </div><!-- /.row -->
 
