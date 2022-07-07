@@ -14,15 +14,17 @@
         <div class="blog-post schedule">
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
+            <col style="width: 10%">
             <col style="width: 40%">
             <col style="width: 30%">
             <col style="width: 15%">
             <col style="width: 15%">
             <col style="width: 15%">
-            <col style="width: 40%">
+            <col style="width: 35%">
           </colgroup>
           <tbody>
             <tr>
+                <th ><h4>ID</h4></th>
                 <th ><h4>Paper Title</h4></th>
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
@@ -37,6 +39,10 @@
            
             <!--begin one author-->
             <tr>
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
                 <td class="tg-0lax">
                 <!-- extra -->
                 {{paper.title}}
@@ -63,17 +69,57 @@
                   <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
                   {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                   Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
-                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                  <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
                 </td>
             </tr>
           <!--Finish one author-->
           {% endfor %} 
+
+          {% assign orderedPapers = site.tags.neurips-2018-op-ab | sort: "paperId" %}
+            {% for paper in orderedPapers %}
+           
+            <!--begin one author-->
+            <tr>
+                <td class="tg-0lax">
+                <!-- extra -->
+                {{paper.title}}
+                <!-- tag -->
+                <br> <small><span class="label label-green">{{paper.topic}}</span></small>
+                <!-- category -->
+                <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+    
+                <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf2.png" height="30"></a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
+                  {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
+                  Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
+                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                </td>
+            </tr>
+          <!--Finish one author-->
+          {% endfor %}
 
           {% assign orderedPapers = site.tags.neurips-2018-op-nf | sort: "paperId" %}
           {% for paper in orderedPapers %}
         
           <!--begin one author-->
           <tr>
+              <td class="tg-0lax">
+                {{paper.paperId}}
+              </td>
+
               <td class="tg-0lax">
               <!-- extra -->
               {{paper.title}}
@@ -98,7 +144,7 @@
                 <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
                 {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                 Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
-                <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
               </td>
           </tr>
         <!--Finish one author-->
@@ -121,6 +167,7 @@
         <div class="blog-post schedule">
         <table rules="rows" class="table" style="table-layout: fixed; width: 100%">
           <colgroup>
+            <col style="width: 10%">
             <col style="width: 40%">
             <col style="width: 30%">
             <col style="width: 15%">
@@ -128,6 +175,7 @@
           </colgroup>
           <tbody>
             <tr>
+                <th ><h4>ID</h4></th>
                 <th ><h4>Paper Title</h4></th>
                 <th ><h4>Author Names</h4></th>
                 <th ><h4>PDF</h4></th>
@@ -140,6 +188,10 @@
           
             <!--begin one author-->
             <tr>
+                <td class="tg-0lax">
+                  {{paper.paperId}}
+                </td>
+
                 <td class="tg-0lax">
                 <!-- extra -->
                 {{paper.title}}
@@ -158,7 +210,7 @@
                   <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
                   {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                   Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
-                  <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                  <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
                 </td>
             </tr>
           <!--Finish one author-->
@@ -169,6 +221,10 @@
         
           <!--begin one author-->
           <tr>
+              <td class="tg-0lax">
+                {{paper.paperId}}
+              </td>
+
               <td class="tg-0lax">
               <!-- extra -->
               {{paper.title}}
@@ -187,7 +243,7 @@
                 <!--the style in the anchor allows to let the hyperlink continues in the next line, in other cases just breaks the table-->
                 {{paper.publicationauthor}} ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                 Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}. 
-                <a style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
               </td>
           </tr>
         <!--Finish one author-->
