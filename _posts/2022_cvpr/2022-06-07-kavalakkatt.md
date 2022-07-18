@@ -5,7 +5,7 @@ publicationauthor: Kavalakkatt Francis, J. et al.
 title: Pattern Based Multivariable Regression using Deep Learning (PBMR-DP)
 pdf: 14_camera_ready.pdf
 poster: 14_poster.png
-pitch: https://drive.google.com/file/d/16mLmSk2RrU4ROMCrt-OciAlObFHaSGIr/view
+pitch:
 type: Poster
 topic: pattern recognition
 category: Extended Abstract

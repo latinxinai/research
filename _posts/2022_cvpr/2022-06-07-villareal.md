@@ -5,7 +5,7 @@ publicationauthor:  Villarreal-Calva, R. C. et al.
 title: Artificial Intelligent System for Shoe Last Personalization
 pdf: 34_camera_ready.pdf
 poster: 34_poster.png
-pitch: https://drive.google.com/open?id=1CbjRAppB2vSzlS6DH7Ih6riGpmdUncyl
+pitch:
 type: Poster
 topic: 3D scan
 category: Extended Abstract

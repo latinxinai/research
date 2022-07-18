@@ -5,7 +5,7 @@ publicationauthor: Gutierrez-Barragan, F. et al.
 title: Compressive Single-Photon 3D Cameras
 pdf: 13_camera_ready.pdf
 poster: 13_poster.png
-pitch: https://drive.google.com/open?id=1YshF-tAKMS8jdYI0FMBqn-CBpHQFLbSx
+pitch:
 type: Poster
 topic: Single-photon cameras
 category: Extended Abstract

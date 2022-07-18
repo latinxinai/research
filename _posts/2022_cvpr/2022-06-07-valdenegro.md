@@ -5,7 +5,7 @@ publicationauthor: Valdenegro Toro, M. et al.
 title: A Deeper Look into Aleatoric and Epistemic Uncertainty Disentanglement
 pdf: 12_camera_ready.pdf
 poster: 12_poster.png
-pitch: https://drive.google.com/open?id=1wIq4kRKk_CPJ9fl1lpi07yAxlivKPc9-
+pitch:
 type: Oral
 topic: Uncertainty
 category: Full paper

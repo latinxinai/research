@@ -5,7 +5,7 @@ publicationauthor: Villalvazo, E. A. et al.
 title: Comparing fusion strategies for kidney stone composition identification
 pdf: 26_camera_ready.pdf
 poster: 26_poster.png
-pitch: https://drive.google.com/open?id=1f-9Dd3GgDcLai8d6KYKZ2ZlS1WwtobfS
+pitch:
 type: Poster
 topic: Medical
 category: Extended Abstract
