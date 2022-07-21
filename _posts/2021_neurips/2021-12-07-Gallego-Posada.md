@@ -2,7 +2,7 @@
 paperId: 1
 author: Jose Gallego-Posada, Juan Ramirez de los Rios, Akram Erraqabi
 publicationauthor: Gallego-Posada, J. et al.
-title: Flexible Learning of Sparse Neural Networks via Constrained L0 Regularizations
+title: Flexible Learning of Sparse Neural Networks via Constrained L0 Regularization
 pdf: --
 poster: Poster_Jose_Gallego-Posada.pdf
 alt: --
