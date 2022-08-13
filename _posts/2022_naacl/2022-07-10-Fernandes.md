@@ -3,13 +3,13 @@ paperId: 8
 author: Wesley Paulino Fernandes Maciel, Yohan Bonescki Gumiel, Adriana Pagano, Ana Paula Couto da Silva
 publicationauthor: Fernandes Maciel, W. P. et al.
 title: User Profile Characterization Within a Brazilian Online Dispute Resolution Platform
-pdf: --
+pdf: paper_08.pdf
 poster: 
 alt: --
 type: 
-topic: 
-subtopic: 
-link: 
+topic: Natural Language Processing
+category: 
+link: https://research.latinxinai.org/papers/naacl/2022/pdf/paper_08.pdf
 conference: naacl
 year: 2022
 tags: naacl-2022
