@@ -10,7 +10,7 @@ slide: Slide_Javier_Sanchez-Galan.pdf
 alt: --
 type: Oral & Poster
 topic: Machine Learning Applications
-link: https://research.latinxinai.org/papers/neurips/2018/pdf/Oral_Javier_Sanchez-Galan.pdf
+link: https://doi.org/10.52591/lxai201812037
 conference: neurips
 year: 2018
 tags: neurips-2018-op
