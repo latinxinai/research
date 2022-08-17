@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Robotics
-link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Garcia-Ramirez_Jesus.pdf
+link: https://doi.org/10.52591/lxai201912087
 conference: neurips
 year: 2019
 tags: neurips-2019
