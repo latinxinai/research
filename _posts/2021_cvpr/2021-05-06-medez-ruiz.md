@@ -9,7 +9,7 @@ pitch: https://youtu.be/5bF4VJC62GE
 type: Poster
 topic: Image Classification
 category: Extended Abstract
-link: https://research.latinxinai.org/papers/cvpr/2021/pdf/53_CameraReady_53.pdf
+link: https://doi.org/10.52591/lxai2021062513
 conference: cvpr
 year: 2021
 tags: cvpr-2021-ea
