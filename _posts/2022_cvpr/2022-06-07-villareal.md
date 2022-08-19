@@ -9,7 +9,7 @@ pitch:
 type: Poster
 topic: 3D scan
 category: Extended Abstract
-link: https://research.latinxinai.org/papers/cvpr/2022/pdf/34_camera_ready.pdf
+link: https://doi.org/10.52591/lxai202206243
 conference: cvpr
 year: 2022
 tags: cvpr-2022-ea
