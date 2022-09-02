@@ -6,9 +6,9 @@ title: User Profile Characterization Within a Brazilian Online Dispute Resolutio
 pdf: paper_08.pdf
 poster: 
 alt: --
-type: 
-topic: Natural Language Processing
-category: 
+type: Oral & Poster
+topic: Linguistic theories
+subtopic: Cognitive Modeling and Psycholinguistics
 link: https://research.latinxinai.org/papers/naacl/2022/pdf/paper_08.pdf
 conference: naacl
 year: 2022

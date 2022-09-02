@@ -6,9 +6,9 @@ title: Identifying epidemic related Tweets using noisy learning
 pdf: paper_03.pdf
 poster: 
 alt: --
-type: 
-topic: Noisy Learning
-category: 
+type: Oral & Poster
+topic: Machine Learning for NLP
+subtopic: Noisy Text, Clinical NLP
 link: https://research.latinxinai.org/papers/naacl/2022/pdf/paper_03.pdf
 conference: naacl
 year: 2022

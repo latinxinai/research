@@ -6,9 +6,9 @@ title: Distributed Text Representations Using Transformers for Noisy Written Lan
 pdf: paper_05.pdf
 poster: 
 alt: --
-type: 
-topic: Distributed Text Representation
-category: 
+type: Oral & Poster
+topic: Distributed Representations
+subtopic: Noisy Text
 link: https://research.latinxinai.org/papers/naacl/2022/pdf/paper_05.pdf 
 conference: naacl
 year: 2022
