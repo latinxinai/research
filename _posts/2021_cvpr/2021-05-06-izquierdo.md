@@ -9,7 +9,7 @@ pitch: https://youtu.be/QxJt7hUo-6Q
 type: Oral
 topic: Deep Learning
 category: Full Paper
-link: https://research.latinxinai.org/papers/cvpr/2021/pdf/19_CameraReady_19.pdf
+link: https://doi.org/10.52591/lxai202106253
 conference: cvpr
 year: 2021
 tags: cvpr-2021
