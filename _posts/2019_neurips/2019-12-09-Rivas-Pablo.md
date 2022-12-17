@@ -3,6 +3,7 @@ paperId: 63
 author: Pablo Rivas
 publicationauthor: Rivas, P.
 title: "DiPol-GAN: Generating Molecular Graphs Adversarially with Relational Differentiable Pooling"
+pitch: https://slideslive.com/38922593/dipolgan-generating-molecular-graphs-adversarially-with-relational-differentiable-pooling?ref=folder-78029
 pdf: Oral_Rivas_Pablo.pdf
 poster: --
 alt: --

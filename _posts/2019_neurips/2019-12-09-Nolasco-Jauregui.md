@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Medical Data
-link: https://research.latinxinai.org/papers/neurips/2019/pdf/Poster_Nolasco-Jauregui_Oralia.pdf
+link: https://doi.org/10.52591/lxai2019120817
 conference: neurips
 year: 2019
 tags: neurips-2019

@@ -9,7 +9,7 @@ pitch: https://youtu.be/zRT2X3cOE1E
 type: Poster
 topic: Efficient Training
 category: Full Paper
-link: https://research.latinxinai.org/papers/cvpr/2021/pdf/47_CameraReady_47.pdf
+link: https://doi.org/10.52591/lxai202106255
 conference: cvpr
 year: 2021
 tags: cvpr-2021

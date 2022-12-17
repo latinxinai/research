@@ -2,7 +2,7 @@
 paperId: 30
 author: Kevin Christian Rodríguez-Siu, Dennis Barrios-Aranibar, Raquel E. Patiño-Escarcina
 publicationauthor: Rodríguez-Siu, K. C. et al.
-title: "Essence-Based Clustering: A Multi-Strategic andHighly-Customizable Clustering Approach"
+title: "Essence-Based Clustering: A Multi-Strategic and Highly-Customizable Clustering Approach"
 pdf: Poster_Kevin_Rodriguez-Siu.pdf
 poster: --
 alt: --

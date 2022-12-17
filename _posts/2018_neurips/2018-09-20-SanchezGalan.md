@@ -3,13 +3,14 @@ paperId: 24
 author: Javier E. Sanchez-Galan, Carlos Quintero, Fernando Merchán, Aydeé Cornejo
 publicationauthor: Sanchez-Galan, J. E. et al.
 title: Using Deep Convolutional Networks for the Automatic Recognition of MacroInvertebrate in Rivers and Affluents in Panama
+pitch: https://youtu.be/JzJxnoS2_Vc?list=PLldrX-tcWesPs3UXagQ38Dx7POaxGvcNV&t=8407
 pdf: Oral_Javier_Sanchez-Galan.pdf
 poster: --
 slide: Slide_Javier_Sanchez-Galan.pdf
 alt: --
 type: Oral & Poster
 topic: Machine Learning Applications
-link: https://research.latinxinai.org/papers/neurips/2018/pdf/Oral_Javier_Sanchez-Galan.pdf
+link: https://doi.org/10.52591/lxai201812037
 conference: neurips
 year: 2018
 tags: neurips-2018-op
