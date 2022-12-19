@@ -9,7 +9,7 @@ pitch: https://www.youtube.com/watch?v=nwK7eNK0auc&list=PLFHvi5sdWF5VqqqQvVC5SuB
 type: Oral
 topic: Applications
 category: Extended Abstract
-link: https://research.latinxinai.org/papers/icml/2021/pdf/paper_12.pdf
+link: https://doi.org/10.52591/lxai202107247
 conference: icml
 year: 2021
 tags: icml-2021
