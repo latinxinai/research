@@ -25,6 +25,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
     faraday (2.7.2)
       faraday-net_http (>= 2.0, < 3.1)
@@ -32,6 +33,7 @@ GEM
     faraday-net_http (3.0.2)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
+    ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (227)
@@ -276,6 +278,7 @@ PLATFORMS
   ruby
   universal-darwin-20
   x64-mingw32
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES
