@@ -9,7 +9,7 @@ pitch:
 type: Oral
 topic: Uncertainty
 category: Full paper
-link: https://research.latinxinai.org/papers/cvpr/2022/pdf/12_camera_ready.pdf
+link: https://doi.org/10.52591/lxai202206244
 conference: cvpr
 year: 2022
 tags: cvpr-2022
