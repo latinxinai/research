@@ -9,7 +9,7 @@ alt: --
 type: Oral & Poster
 topic: Distributed Representations
 subtopic: Noisy Text
-link: https://doi.org/10.52591/lxai202207102
+link: https://research.latinxinai.org/papers/naacl/2022/pdf/paper_05.pdf 
 conference: naacl
 year: 2022
 tags: naacl-2022
