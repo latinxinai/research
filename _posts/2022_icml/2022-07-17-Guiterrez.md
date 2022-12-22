@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Machine Learning
 subtopic: Data Privacy
-link: https://doi.org/10.52591/lxai202207171
+link: https://research.latinxinai.org/papers/icml/2022/pdf/poster_4.pdf
 conference: icml
 year: 2022
 tags: icml-2022
