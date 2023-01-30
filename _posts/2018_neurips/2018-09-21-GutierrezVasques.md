@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Natural Language Processing
-link: https://research.latinxinai.org/papers/neurips/2018/pdf/Poster_Ximena_GutierrezVasquez.pdf
+link: https://doi.org/10.52591/lxai2018120323
 conference: neurips
 year: 2018
 tags: neurips-2018
