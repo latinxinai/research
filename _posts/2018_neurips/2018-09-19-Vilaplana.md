@@ -8,7 +8,7 @@ poster: --
 alt: --
 type: Poster
 topic: Machine Learning Applications
-link: https://research.latinxinai.org/papers/neurips/2018/pdf/Poster_Veronica_Vilaplana.pdf
+link: https://doi.org/10.52591/lxai2018120325
 conference: neurips
 year: 2018
 tags: neurips-2018
