@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: "Recognition: Categorization"
 subtopic: Transfer Learning
-link: https://research.latinxinai.org/papers/iccv/2022/pdf/Javier_Sanchez_Poster.pdf
+link: https://doi.org/10.52591/lxai202209223
 conference: iccv
 year: 2022
 tags: iccv-2022
