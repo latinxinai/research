@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Medical and Biological Vision, Cell Microscopy
 subtopic: Segmentation, Grouping and Shape Analysis
-link: https://research.latinxinai.org/papers/neurips/2023/pdf/Gilberto_OchoaRuiz.pdf
+link: https://research.latinxinai.org/papers/cvpr/2023/pdf/Gilberto_OchoaRuiz.pdf
 conference: cvpr
 year: 2023
 tags: cvpr-2023-pp
