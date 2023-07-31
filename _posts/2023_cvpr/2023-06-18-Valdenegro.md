@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Computer Vision Theory
 subtopic: Representation Learning
-link: https://research.latinxinai.org/papers/neurips/2023/pdf/Matias_Valdenegro.pdf
+link: https://research.latinxinai.org/papers/cvpr/2023/pdf/Matias_Valdenegro.pdf
 conference: cvpr
 year: 2023
 tags: cvpr-2023-pp

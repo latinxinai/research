@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Medical and Biological Vision, Cell Microscopy 
 subtopic: "Recognition: Categorization, detection,  retrieval"
-link: https://research.latinxinai.org/papers/neurips/2023/pdf/Jose_Cantoral.pdf
+link: https://research.latinxinai.org/papers/cvpr/2023/pdf/Jose_Cantoral.pdf
 conference: cvpr
 year: 2023
 tags: cvpr-2023-ea-pp
