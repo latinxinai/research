@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: General Machine Learning
 subtopic: Deep Learning
-link: https://research.latinxinai.org/papers/icml/2023/pdf/Alejandro_Rodriguez.pdf
+link: https://doi.org/10.52591/lxai202307237
 conference: icml
 year: 2023
 tags: icml-2023
