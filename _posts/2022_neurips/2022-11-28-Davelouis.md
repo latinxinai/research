@@ -5,6 +5,7 @@ publicationauthor: Davelouis Gallardo, F. et al.
 title: Adapting the Function Approximation Architecture in Online Reinforcement Learning
 pdf: 24_CameraReady.pdf
 poster: 24_CameraReady_poster.pdf
+pitch: https://www.youtube.com/watch?v=8jkySesput8&list=PLFHvi5sdWF5UgS5C9jOBxAXwB7XnLafO9&index=4&ab_channel=LatinXinAI
 alt: --
 type: Oral
 topic: 
