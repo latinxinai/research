@@ -17,8 +17,6 @@
                   <col style="width: 40%">
                   <col style="width: 30%">
                   <col style="width: 15%">
-                  <col style="width: 15%">
-                  <!-- <col style="width: 15%"> -->
                   <col style="width: 35%">
                 </colgroup>
                 <tbody>
@@ -27,12 +25,10 @@
                     <th ><h4>Paper Title</h4></th>
                     <th ><h4>Author Names</h4></th>
                     <th ><h4>PDF</h4></th>
-                    <th ><h4>Poster</h4></th>
-                    <!-- <th ><h4>Pitch</h4></th> -->
                     <th ><h4>Citation</h4></th>
                   </tr>
                  
-                  {% assign orderedPapers = site.tags.neurips-2022-op | sort: "paperId" %}
+                  {% assign orderedPapers = site.tags.neurips-2023-fp | sort: "paperId" %}
                   {% for paper in orderedPapers %}
                
                 <!--begin one author-->
@@ -44,9 +40,7 @@
                   <td class="tg-0lax">
                     <!-- extra -->
                     {{paper.title}}
-                    <!-- <br><small><span class="label label-green">{{paper.topic}}</span></small> -->
-                    <!--Subtopic-->
-                    <!-- <small><span class="label label-red">{{paper.subtopic}}</span></small>  --> 
+                    <br><small><span class="label label-green">{{paper.topic}}</span></small>
                     <!-- Presentation type -->
                     <small> <span class="label label-blue">{{paper.type}}</span></small>
                   </td>
@@ -56,14 +50,6 @@
                     <br>
                     <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf2.png" height="30"></a>
                   </td>
-                  <td class="tg-0lax">
-                    <br>
-                    <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.poster}}"><img src="../../../assets/icons/research.png" height="30"></a>
-                  </td>
-                  <!-- <td class="tg-0lax">
-                    <br>
-                    <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
-                  </td> -->
                   <td style="max-width: 1px;" class="tg-0lax">
                     {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
                     Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
@@ -91,8 +77,6 @@
                 <col style="width: 40%">
                 <col style="width: 30%">
                 <col style="width: 15%">
-                <col style="width: 15%">
-                <!-- <col style="width: 15%"> -->
                 <col style="width: 35%">
               </colgroup>
               <tbody>
@@ -101,12 +85,10 @@
                   <th ><h4>Paper Title</h4></th>
                   <th ><h4>Author Names</h4></th>
                   <th ><h4>PDF</h4></th>
-                  <th ><h4>Poster</h4></th>
-                  <!-- <th ><h4>Pitch</h4></th> -->
                   <th ><h4>Citation</h4></th>
                 </tr>
                
-                {% assign orderedPapers = site.tags.neurips-2022 | sort: "paperId" %}
+                {% assign orderedPapers = site.tags.neurips-2023 | sort: "paperId" %}
                 {% for paper in orderedPapers %}
              
               <!--begin one author-->
@@ -119,9 +101,7 @@
                   <!-- extra -->
                   {{paper.title}}
                   <!-- Topic -->
-                  <!-- <br><small><span class="label label-green">{{paper.topic}}</span></small> -->
-                  <!--Subtopic-->
-                  <!-- <small><span class="label label-red">{{paper.subtopic}}</span></small>  -->
+                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
                   <!-- Presentation type -->
                   <small> <span class="label label-blue">{{paper.type}}</span></small>
                 </td>
@@ -131,18 +111,40 @@
                   <br>
                   <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf2.png" height="30"></a>
                 </td>
-                <td class="tg-0lax">
-                  <br>
-                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.poster}}"><img src="../../../assets/icons/research.png" height="30"></a>
-                </td>
-                <!-- <td class="tg-0lax">
-                  <br>
-                  <a target="_blank" href="{{paper.pitch}}"><img src="../../../assets/icons/video.png" height="30"></a>
-                </td> -->
                 <td style="max-width: 1px;" class="tg-0lax">
                   {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
                   Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
                   <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+                </td>
+              </tr>
+              <!--Finish one author-->
+              {% endfor %}
+              {% assign orderedPapers = site.tags.neurips-2023-np | sort: "paperId" %}
+                {% for paper in orderedPapers %}
+             
+              <!--begin one author-->
+              <tr> 
+                <td class="tg-0lax"> 
+                  {{paper.paperId}}
+                </td>
+  
+                <td class="tg-0lax">
+                  <!-- extra -->
+                  {{paper.title}}
+                  <!-- Topic -->
+                  <br><small><span class="label label-green">{{paper.topic}}</span></small>
+                  <!-- Presentation type -->
+                  <small> <span class="label label-blue">{{paper.type}}</span></small>
+                </td>
+      
+                <td class="tg-0lax">{{paper.author}}</td>
+                <td class="tg-0lax">
+                  <br>
+                  <!-- <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}"><img src="../../../assets/icons/pdf2.png" height="30"></a> -->
+                </td>
+                <td style="max-width: 1px;" class="tg-0lax">
+                  {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation]. 
+                  Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
                 </td>
               </tr>
               <!--Finish one author-->
