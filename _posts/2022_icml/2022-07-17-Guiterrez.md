@@ -5,6 +5,7 @@ publicationauthor: Gutierrez, J. M. et al.
 title: A Model-Based Filter to Improve Local Differential Privacy
 pdf: 
 poster: poster_4.pdf
+pitch: https://www.youtube.com/watch?v=mD4YXqJt0w8&list=PLFHvi5sdWF5WG6ui6X90DZP4PEjMAuoVS&index=6&ab_channel=LatinXinAI
 alt: --
 type: Poster
 topic: Machine Learning
