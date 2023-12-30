@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Machine Learning for Science
 subtopic: --
-link: https://research.latinxinai.org/papers/icml/2023/pdf/Xaviera_Lopez-Cortes.pdf
+link: https://doi.org/10.52591/lxai202312102
 conference: neurips
 year: 2023
 tags: neurips-2023-fp

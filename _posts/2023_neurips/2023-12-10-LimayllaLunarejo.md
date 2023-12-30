@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Applications
 subtopic: --
-link: https://research.latinxinai.org/papers/icml/2023/pdf/Maria_Limaylla-Lunarejo.pdf
+link: https://doi.org/10.52591/lxai202312103
 conference: neurips
 year: 2023
 tags: neurips-2023
