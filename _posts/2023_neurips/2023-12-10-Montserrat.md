@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Deep Learning
 subtopic: --
-link: https://research.latinxinai.org/papers/neurips/2023/pdf/Aina_Montserrat.pdf
+link: https://doi.org/10.52591/lxai202312109
 conference: neurips
 year: 2023
 tags: neurips-2023
