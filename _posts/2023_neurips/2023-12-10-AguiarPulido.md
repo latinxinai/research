@@ -2,7 +2,7 @@
 paperId: 37
 author: Elliot Huang, Lemuel Mojica Vazquez, Nicolas Echevarrieta-Catalan, Laura Vitale, Daniel S. Messinger, Vanessa Aguiar-Pulido
 publicationauthor: Aguiar-Pulido, V. et al.
-title: Behavioral Classification and Characterization of Autism Spectrum Disorder in Naturalistic Settings using Classical Machine LearningPredictions
+title: Behavioral Classification and Characterization of Autism Spectrum Disorder in Naturalistic Settings using Classical Machine Learning
 pdf: Vanessa_Aguiar-Pulido.pdf
 poster: --
 alt: --
