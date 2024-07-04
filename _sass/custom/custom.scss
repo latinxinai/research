@@ -6,9 +6,10 @@
 
 @media only screen and (min-width: 50rem) {
   .main {
-    min-width: calc(100% - 264px);
+    //min-width: calc(100% - 264px);
     position: absolute;
-    margin-left: 264px;
+    margin-left: 16.5rem !important;
+    max-width: none;
   }
 }
 
@@ -16,6 +17,7 @@
   .side-bar {
     width: 264px;
     position: fixed;
+    max-width: 16.5rem;
   }
 }
 
