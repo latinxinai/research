@@ -71,3 +71,27 @@ ul.small.list-inline.col-md-12.article-journal-name {
   position: relative;
   text-align: center;
 }
+
+.label {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.2em 0.2em 0.2em 0; /* Adjust margin for better inline spacing */
+  border-radius: 4px;
+  font-size: 0.85em;
+  white-space: normal; /* Allow text to wrap */
+}
+
+.label-green {
+  background-color: #28a745;
+  color: white;
+}
+
+.label-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.label-blue {
+  background-color: #007bff;
+  color: white;
+}

@@ -3,8 +3,8 @@ paperId: 1
 author: Alejandro Molina-Villegas
 publicationauthor: Alejandro Molina-Villegas
 title: "Mayasoundex: A Phonetically Grounded Algorithm for Information Retrieval in the Maya Language"
-pdf: --
-poster: Alejandro_Molina-Villegas.pdf
+pdf: Alejandro_Molina-Villegas.pdf
+poster: --
 alt: --
 type: Poster
 topic: Information Retrieval and Text Mining
