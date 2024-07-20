@@ -16,7 +16,8 @@
               <col style="width: 40%">
               <col style="width: 30%">
               <col style="width: 15%">
-              <!-- <col style="width: 15%"> -->
+              <col style="width: 15%">
+              <col style="width: 15%">
               <col style="width: 35%">
             </colgroup>
             <tbody>
@@ -25,6 +26,8 @@
                 <th><h4>Paper Title</h4></th>
                 <th><h4>Author Names</h4></th>
                 <th><h4>PDF</h4></th>
+                <th><h4>Poster</h4></th>
+                <th><h4>Pitch</h4></th>
                 <th><h4>Citation</h4></th>
               </tr>
   
@@ -43,7 +46,7 @@
                   <!--Subtopic-->
                   <small><span class="label label-red">{{paper.subtopic}}</span></small>
                   <!-- Presentation type -->
-                  <br><small><span class="label label-blue">{{paper.type}}</span></small>
+                  <small><span class="label label-blue">{{paper.type}}</span></small>
                 </td>
   
                 <td class="tg-0lax">{{paper.author}}</td>
@@ -51,6 +54,19 @@
                   <br>
                   <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}">
                     <img src="../../../assets/icons/pdf2.png" height="30">
+                  </a>
+                </td>
+                
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/posters/{{paper.poster}}">
+                    <img src="../../../assets/icons/research.png" height="30">
+                  </a>
+                </td>
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="{{paper.pitch}}">
+                    <img src="../../../assets/icons/video.png" height="30">
                   </a>
                 </td>
                 <td style="max-width: 1px;" class="tg-0lax">
@@ -80,7 +96,7 @@
               <col style="width: 40%">
               <col style="width: 30%">
               <col style="width: 15%">
-              <!-- <col style="width: 15%"> -->
+              <col style="width: 15%">
               <col style="width: 35%">
             </colgroup>
             <tbody>
@@ -89,10 +105,11 @@
                 <th><h4>Paper Title</h4></th>
                 <th><h4>Author Names</h4></th>
                 <th><h4>PDF</h4></th>
+                <th><h4>Poster</h4></th>
                 <th><h4>Citation</h4></th>
               </tr>
   
-              {% assign orderedPapers = site.tags.cvpr-2024 | sort: "paperId" %}
+              {% assign orderedPapers = site.tags.cvpr-2024-ea | sort: "paperId" %}
               {% for paper in orderedPapers %}
               <!--begin one author-->
               <tr>
@@ -107,7 +124,7 @@
                   <!--Subtopic-->
                   <small><span class="label label-red">{{paper.subtopic}}</span></small>
                   <!-- Presentation type -->
-                  <br><small><span class="label label-blue">{{paper.type}}</span></small>
+                  <small><span class="label label-blue">{{paper.type}}</span></small>
                 </td>
   
                 <td class="tg-0lax">{{paper.author}}</td>
@@ -117,6 +134,14 @@
                     <img src="../../../assets/icons/pdf2.png" height="30">
                   </a>
                 </td>
+
+                <td class="tg-0lax">
+                  <br>
+                  <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/posters/{{paper.poster}}">
+                    <img src="../../../assets/icons/research.png" height="30">
+                  </a>
+                </td>
+
                 <td style="max-width: 1px;" class="tg-0lax">
                   {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                   International Conference on Computer Vision: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
