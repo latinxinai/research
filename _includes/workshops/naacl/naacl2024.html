@@ -16,7 +16,7 @@
             <col style="width: 40%">
             <col style="width: 30%">
             <col style="width: 15%">
-            <!-- <col style="width: 15%"> -->
+            <col style="width: 15%">
             <col style="width: 35%">
           </colgroup>
           <tbody>
@@ -25,6 +25,7 @@
               <th><h4>Paper Title</h4></th>
               <th><h4>Author Names</h4></th>
               <th><h4>PDF</h4></th>
+              <th><h4>Poster</h4></th>
               <th><h4>Citation</h4></th>
             </tr>
 
@@ -53,6 +54,12 @@
                   <img src="../../../assets/icons/pdf2.png" height="30">
                 </a>
               </td>
+              <td class="tg-0lax">
+                <br>
+                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/posters/{{paper.poster}}">
+                  <img src="../../../assets/icons/research.png" height="30">
+                </a>
+              </td>
               <td style="max-width: 1px;" class="tg-0lax">
                 {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
                 North American Chapter of the Association for Computational Linguistics Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
@@ -61,6 +68,42 @@
             </tr>
             <!--Finish one author-->
             {% endfor %}
+
+            {% assign orderedPapers = site.tags.naacl-2024-np | sort: "paperId" %}
+            {% for paper in orderedPapers %}
+            <!--begin one author-->
+            <tr>
+              <td class="tg-0lax" style="text-align: center">
+                {{paper.paperId}}
+              </td>
+
+              <td class="tg-0lax">
+                <!-- extra -->
+                {{paper.title}}
+                <br><small><span class="label label-green">{{paper.topic}}</span></small>
+                <!--Subtopic-->
+                <small><span class="label label-red">{{paper.subtopic}}</span></small>
+                <!-- Presentation type -->
+                <br><small><span class="label label-blue">{{paper.type}}</span></small>
+              </td>
+
+              <td class="tg-0lax">{{paper.author}}</td>
+              <td class="tg-0lax">
+                <br>
+                <a target="_blank" href="../../../papers/{{paper.conference}}/{{paper.year}}/pdf/{{paper.pdf}}">
+                  <img src="../../../assets/icons/pdf2.png" height="30">
+                </a>
+              </td>
+              <td class="tg-0lax"><br></td>
+              <td style="max-width: 1px;" class="tg-0lax">
+                {{paper.publicationauthor}}, ({{paper.year}}). <i>{{paper.title}}</i> [{{paper.type}} Presentation].
+                North American Chapter of the Association for Computational Linguistics Conference: LatinX in AI (LXAI) Research Workshop {{paper.year}}, {{paper.location}}.
+                <a target="_blank" style="overflow-wrap: break-word; white-space: normal;" href="{{paper.link}}">{{paper.link}}</a>
+              </td>
+            </tr>
+            <!--Finish one author-->
+            {% endfor %}
+
           </tbody>
         </table>
       </div><!-- /.blog-post -->
