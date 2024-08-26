@@ -9,7 +9,7 @@ alt: --
 type: Oral
 topic: Multilinguality and Language Diversity
 subtopic: Resources and Evaluation
-link: https://research.latinxinai.org/papers/naacl/2024/pdf/Erica_Shimomoto.pdf
+link: https://doi.org/10.52591/lxai202406213
 conference: naacl
 year: 2024
 tags: naacl-2024-op

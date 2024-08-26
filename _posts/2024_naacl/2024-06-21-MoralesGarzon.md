@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: NLP Applications
 subtopic: Resources and Evaluation
-link: https://research.latinxinai.org/papers/naacl/2024/pdf/Andrea_Morales-Garzon.pdf
+link: https://doi.org/10.52591/lxai2024062112
 conference: naacl
 year: 2024
 tags: naacl-2024-np

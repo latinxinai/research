@@ -9,7 +9,7 @@ alt: --
 type: Poster
 topic: Information Retrieval and Text Mining
 subtopic: Multilinguality and Language Diversity
-link: https://research.latinxinai.org/papers/naacl/2024/pdf/Alejandro_Molina-Villegas.pdf
+link: https://doi.org/10.52591/lxai2024062111
 conference: naacl
 year: 2024
 tags: naacl-2024

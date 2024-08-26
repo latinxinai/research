@@ -9,7 +9,7 @@ alt: --
 type: Oral
 topic: Computational Social Science and Cultural Analytics
 subtopic: Sentiment Analysis, Stylistic Analysis, and Argument Mining
-link: https://research.latinxinai.org/papers/naacl/2024/pdf/Abi_Oppenheim.pdf
+link: https://doi.org/10.52591/lxai202406211
 conference: naacl
 year: 2024
 tags: naacl-2024-op
