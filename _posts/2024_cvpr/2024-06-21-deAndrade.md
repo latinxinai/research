@@ -9,7 +9,7 @@ pitch: --
 type: Poster
 topic: 3D from multi-view and sensors
 subtopic: "Video: Action and event understanding"
-link: https://research.latinxinai.org/papers/cvpr/2024/pdf/Isabella_deAndrade.pdf
+link: https://doi.org/10.52591/lxai202406173
 conference: cvpr
 year: 2024
 tags: cvpr-2024-ea

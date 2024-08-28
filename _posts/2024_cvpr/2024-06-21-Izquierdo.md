@@ -9,7 +9,7 @@ pitch: https://www.youtube.com/watch?v=amYp7TeiVsM&list=PLFHvi5sdWF5XWI7RyXTgbqc
 type: Poster
 topic: Transfer/ low-shot/ continual/ long-tail learning  
 subtopic: Vision applications and systems
-link: https://research.latinxinai.org/papers/cvpr/2024/pdf/Ramon_Izquierdo-Cordova.pdf
+link: https://doi.org/10.52591/lxai202406177
 conference: cvpr
 year: 2024
 tags: cvpr-2024
