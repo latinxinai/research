@@ -9,7 +9,7 @@ pitch: --
 type: Poster
 topic: 3D from single images
 subtopic: Representation learning
-link: https://research.latinxinai.org/papers/cvpr/2024/pdf/Miguel_Fainstein.pdf
+link: https://doi.org/10.52591/lxai202406172
 conference: cvpr
 year: 2024
 tags: cvpr-2024-ea
