@@ -9,7 +9,7 @@ pitch: --
 type: --
 topic: 
 subtopic: 
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Rogelio_Reyes-Galaviz.pdf
+link: https://doi.org/10.52591/lxai202407272
 conference: icml
 year: 2024
 tags: icml-2024
