@@ -6,9 +6,9 @@ title: "Unified Uncertainties: Combining Input, Data and Model Uncertainty into 
 pdf: Matias_Valdenegro-Toro.pdf
 poster: --
 pitch: --
-type: --
-topic: 
-subtopic: 
+type: Oral
+topic: Uncertainty modelling
+subtopic: Neural Networks
 link: https://research.latinxinai.org/papers/icml/2024/pdf/Matias_Valdenegro-Toro.pdf
 conference: icml
 year: 2024
