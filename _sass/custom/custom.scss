@@ -23,6 +23,7 @@
 
 ul.small.list-inline.col-md-12.article-journal-name {
   display: -webkit-box;
+
   li {
     margin: 0.25rem;
   }
@@ -33,7 +34,7 @@ ul.small.list-inline.col-md-12.article-journal-name {
   padding-left: 0;
 }
 
-.main-content ul > li::before {
+.main-content ul>li::before {
   content: none;
 }
 
@@ -76,10 +77,12 @@ ul.small.list-inline.col-md-12.article-journal-name {
 .label {
   display: inline-block;
   padding: 0.5em 1em;
-  margin: 0.2em 0.2em 0.2em 0; /* Adjust margin for better inline spacing */
+  margin: 0.2em 0.2em 0.2em 0;
+  /* Adjust margin for better inline spacing */
   border-radius: 4px;
   font-size: 0.85em;
-  white-space: normal; /* Allow text to wrap */
+  white-space: normal;
+  /* Allow text to wrap */
 }
 
 .label-green {
@@ -97,3 +100,20 @@ ul.small.list-inline.col-md-12.article-journal-name {
   color: white;
 }
 
+.paper-badges {
+  display: flex;
+  flex-wrap: wrap; // ← permite salto de línea
+  gap: 4px 6px; // espacio entre badges
+  margin-top: 4px;
+  max-width: 100%;
+}
+
+.paper-badges .label {
+  display: inline-flex;
+  align-items: center;
+  white-space: normal;
+  word-break: break-word;
+  max-width: 160px;
+  text-align: center;
+  line-height: 1.3;
+}
