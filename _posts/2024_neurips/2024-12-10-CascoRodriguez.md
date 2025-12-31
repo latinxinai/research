@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: Social and economic aspects of machine learning
 subtopic: Deep Learning
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Josue_Casco-Rodriguez.pdf
+link: https://research.latinxinai.org/papers/neurips/2024/pdf/Josue_Casco-Rodriguez.pdf
 conference: neurips
 year: 2024
 tags: neurips-2024-sp

@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: Machine Learning for Sciences
 subtopic: Evaluation
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Cesar_Quilodran-Casas.pdf
+link: https://research.latinxinai.org/papers/neurips/2024/pdf/Cesar_Quilodran-Casas.pdf
 conference: neurips
 year: 2024
 tags: neurips-2024

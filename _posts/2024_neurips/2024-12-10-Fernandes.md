@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: Infrastructure
 subtopic: General machine learning
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Jose_Fernandes.pdf
+link: https://doi.org/10.52591/202412105
 conference: neurips
 year: 2024
 tags: neurips-2024-sp

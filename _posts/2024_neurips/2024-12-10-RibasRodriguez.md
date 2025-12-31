@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: Deep Learning
 subtopic: Neuroscience and Cognitive Science
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Ana_Ribas-Rodriguez.pdf
+link: https://research.latinxinai.org/papers/neurips/2024/pdf/Ana_Ribas-Rodriguez.pdf
 conference: neurips
 year: 2024
 tags: neurips-2024
