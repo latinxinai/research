@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: General Machine Learning
 subtopic: Deep Learning
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Luigi_Quarantiello.pdf
+link: https://doi.org/10.52591/2024121015
 conference: neurips
 year: 2024
 tags: neurips-2024-sp

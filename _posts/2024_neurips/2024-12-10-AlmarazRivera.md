@@ -6,10 +6,10 @@ title: "Hyphatia: a Card-Not-Present Fraud Detection System based on Self-Superv
 pdf: Josue_Almaraz-Rivera.pdf
 poster: --
 alt: --
-type: Paper
+type: Oral
 topic: General machine learning
 subtopic: Social and economic aspects of machine learning
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Josue_Almaraz-Rivera.pdf
+link: https://research.latinxinai.org/papers/neurips/2024/pdf/Josue_Almaraz-Rivera.pdf
 conference: neurips
 year: 2024
 tags: neurips-2024-op

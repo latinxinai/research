@@ -9,7 +9,7 @@ alt: --
 type: Paper
 topic: Applications
 subtopic: Deep Learning
-link: https://research.latinxinai.org/papers/icml/2024/pdf/Savio_Santos.pdf
+link: https://doi.org/10.52591/202412104
 conference: neurips
 year: 2024
 tags: neurips-2024
